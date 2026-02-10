@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7fc091d54684c437090846e80535e4a7
+guid: 292929197fac04e9d96787d5d440666f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2193959664909065854
-    second: WhatsApp Image 2026-02-09 at 21.40.51_0
+      213: 250302231659039430
+    second: WhatsApp_Image_2026-02-10_at_12.17.34__2_-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WhatsApp Image 2026-02-09 at 21.40.51_0
+      name: WhatsApp_Image_2026-02-10_at_12.17.34__2_-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 1280
+        x: 13
+        y: 254
+        width: 401
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2816f811f4d7d81e0800000000000000
-      internalID: -2193959664909065854
+      spriteID: 6ca4684bd80497300800000000000000
+      internalID: 250302231659039430
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WhatsApp Image 2026-02-09 at 21.40.51_0: -2193959664909065854
+      WhatsApp_Image_2026-02-10_at_12.17.34__2_-removebg-preview_0: 250302231659039430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
