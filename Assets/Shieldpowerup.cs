@@ -49,14 +49,14 @@ public class ShieldPowerUp : MonoBehaviour
     {
         hasBeenCollected = true;
 
-        // 1. Aumentar la vida del personaje
+        //Aumentar la vida del personaje
         Health health = character.GetComponent<Health>();
         if (health != null)
         {
             health.GetHealth(healthToAdd, character.gameObject);
         }
 
-        // 2. Cambiar el sprite del personaje con escala ajustable
+        //Cambiar el sprite del personaje con escala ajustable
         SpriteRenderer characterSprite = character.GetComponentInChildren<SpriteRenderer>();
         Sprite originalSprite = null;
         Vector3 originalScale = Vector3.one;
@@ -71,10 +71,10 @@ public class ShieldPowerUp : MonoBehaviour
             characterSprite.transform.localScale = originalScale * shieldSpriteScale;
         }
 
-        // 3. Iniciar la corrutina del efecto temporal
+        // Iniciar el efecto temporal del escudo
         StartCoroutine(ShieldEffectCoroutine(character, health, characterSprite, originalSprite, originalScale));
 
-        // 4. Efectos visuales y de sonido
+        // Efectos visuales y de sonido
         if (pickupEffect != null)
         {
             Instantiate(pickupEffect, transform.position, Quaternion.identity);
@@ -85,7 +85,7 @@ public class ShieldPowerUp : MonoBehaviour
             MMSoundManagerSoundPlayEvent.Trigger(pickupSound, MMSoundManager.MMSoundManagerTracks.Sfx, transform.position);
         }
 
-        // 5. Destruir el power-up
+        // Destruir el power-up
         Destroy(gameObject);
     }
 
