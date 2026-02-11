@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "scripting2026.slnx"
+    "dotnet.defaultSolution": "Scripting_Proyecto1.slnx"
 }
