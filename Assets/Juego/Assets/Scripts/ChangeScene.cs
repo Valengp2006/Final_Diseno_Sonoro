@@ -1,16 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using MoreMountains.Tools;
 public class ChangeScene : MonoBehaviour
 {
-    public void SceneIndex(int sceneIndex)
-    {
-        SceneManager.LoadScene(sceneIndex);
-    }
-
     public void SceneName(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        MMSceneLoadingManager.LoadScene(sceneName);
     }
 
     public void quitGame()
