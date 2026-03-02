@@ -38,7 +38,7 @@ En proceso.
 
 | Componente | Versión Mínima |
 |------------|----------------|
-| **Unity** | 2022.3 LTS o superior |
+| **Unity** | 6000.3.6f1 |
 | **Corgi Engine** | 9.0+ |
 | **Sistema Operativo** | Windows 10/11, macOS 10.15+ |
 | **RAM** | 8 GB |
@@ -55,7 +55,7 @@ cd Scripting_Proyecto1
 #### 2. Instalar Unity Hub
 
 - Descarga Unity Hub desde [unity.com](https://unity.com/download)
-- Instala Unity **2022.3 LTS** (recomendado)
+- Instala Unity **6000.3.6f1** (recomendado)
 - Asegúrate de incluir el módulo **"Windows Build Support"** o **"Mac Build Support"**
 
 #### 3. Importar Corgi Engine
