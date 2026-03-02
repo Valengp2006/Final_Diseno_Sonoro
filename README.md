@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Unity](https://img.shields.io/badge/Unity-2022.3+-black?style=for-the-badge&logo=unity)
+![Unity](https://img.shields.io/badge/Unity-6000.0.3f1-black?style=for-the-badge&logo=unity)
 ![C#](https://img.shields.io/badge/C%23-10.0-blue?style=for-the-badge&logo=c-sharp)
 ![Corgi Engine](https://img.shields.io/badge/Corgi_Engine-9.0-green?style=for-the-badge)
 
