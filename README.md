@@ -1,4 +1,4 @@
-# 🌟 Luna y las Estrellas Perdidas
+# Luna y las Estrellas Perdidas
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
 </div>
 
-## 📖 Historia
+## Historia
 
 Luna es una pequeña astronauta que vive en la **Estación Espacial Esperanza**. Una noche, un cometa travieso llamado **Caos** pasa demasiado cerca de la estación. Su poderosa cola magnética arranca las **tres Estrellas Guardianas** que mantienen la estación en órbita estable.
 
@@ -32,7 +32,7 @@ Una zona de escalada y movimiento vertical.
 ### Nivel 3: Núcleo del Cometa
 En proceso.
 
-## 🛠️ Configuración e Instalación
+## Configuración e Instalación
 
 ### Requisitos del Sistema
 
