@@ -1,137 +1,130 @@
-# Scripting 2026
+# Luna y las Estrellas Perdidas
 
-## Español
+<div align="center">
 
-### Instrucciones de Instalación y Configuración
+![Unity](https://img.shields.io/badge/Unity-6000.0.3f1-black?style=for-the-badge&logo=unity)
+![C#](https://img.shields.io/badge/C%23-10.0-blue?style=for-the-badge&logo=c-sharp)
+![Corgi Engine](https://img.shields.io/badge/Corgi_Engine-9.0-green?style=for-the-badge)
 
-Este proyecto está desarrollado con Unity y utiliza el Corgi Engine. Sigue estos pasos para configurar el proyecto en tu computadora:
+**Un juego de plataformas 2D espacial donde Luna, una valiente astronauta, debe recuperar las estrellas guardianas para salvar su estación espacial.**
 
-#### Prerrequisitos
-- **Unity Hub**: Descarga desde [unity.com](https://unity.com/download)
-- **Unity 2022.3 LTS** (o la versión específica del proyecto)
-- **Git**: Descarga desde [git-scm.com](https://git-scm.com/downloads)
-- **Visual Studio Community** o **Visual Studio Code** para editar scripts
+</div>
 
-#### Pasos de Instalación
+## Historia
 
-1. **Crear tu repositorio**
-   ```bash
-   # Navega a tu carpeta de proyectos
-   cd tu-carpeta-de-proyectos
-   
-   # Clona este repositorio
-   git clone https://github.com/xaca/scripting2026.git
-   
-   # Cambia el nombre de la carpeta si lo deseas
-   mv scripting2026 tu-nuevo-nombre-proyecto
-   cd tu-nuevo-nombre-proyecto
-   
-   # Opcional: Crea tu propio repositorio en GitHub
-   # Elimina la conexión al repositorio original
-   rm -rf .git
-   
-   # Inicializa tu nuevo repositorio
-   git init
-   git add .
-   git commit -m "Primer commit: proyecto base"
-   
-   # Conecta con tu repositorio de GitHub (reemplaza con tu URL)
-   git remote add origin https://github.com/tu-usuario/tu-repositorio.git
-   git push -u origin main
-   ```
+Luna es una pequeña astronauta que vive en la **Estación Espacial Esperanza**. Una noche, un cometa travieso llamado **Caos** pasa demasiado cerca de la estación. Su poderosa cola magnética arranca las **tres Estrellas Guardianas** que mantienen la estación en órbita estable.
 
-2. **Abrir el proyecto en Unity**
-   - Abre Unity Hub
-   - Haz clic en "Open" o "Abrir"
-   - Navega hasta la carpeta del proyecto clonado
-   - Selecciona la carpeta raíz del proyecto
-   - Unity detectará automáticamente el proyecto
+Sin estas estrellas, la estación comenzará a caer hacia la Tierra en cuestión de horas. Luna debe ser valiente y aventurarse por **tres zonas peligrosas del espacio** para recuperar cada estrella antes de que sea demasiado tarde y su hogar se pierda para siempre.
 
-3. **Verificar la instalación**
-   - Espera a que Unity importe todos los assets
-   - Abre la escena principal en `Assets/Juego/` o `Assets/CorgiEngine/`
-   - Presiona el botón Play para verificar que todo funciona
+Cada zona presenta sus propios desafíos: asteroides flotantes, nubes de gas que ocultan plataformas, y el gélido interior del cometa mismo. ¿Podrá Luna recuperar las tres estrellas a tiempo?
 
-#### Estructura del Proyecto
-- `Assets/CorgiEngine/`: Archivos del motor Corgi Engine
-- `Assets/Juego/`: Tus scripts y assets personalizados
-- `Assets/MMData/`: Datos y configuraciones
-- `ProjectSettings/`: Configuración del proyecto Unity
 
-#### Solución de Problemas Comunes
-- **Error de versión de Unity**: Asegúrate de usar Unity 2022.3 LTS
-- **Assets faltantes**: Verifica que todos los archivos se descargaron correctamente
-- **Errores de compilación**: Espera a que Unity termine de importar todos los packages
+## Los Tres Niveles
 
----
+### Nivel 1: Cinturón de Asteroides
+Un campo caótico de rocas flotantes donde Luna debe saltar entre asteroides para alcanzar la primera Estrella Guardiana. Algunas plataformas se mueven , otras son estables pero están infestadas de meteoritos vivientes y drones espaciales.
 
-## English
+**Easter egg:** El gato de Luna
 
-### Installation and Setup Instructions
+### Nivel 2: Nebulosa Púrpura
+Una zona de escalada y movimiento vertical.
 
-This project is developed with Unity and uses the Corgi Engine. Follow these steps to set up the project on your computer:
+### Nivel 3: Núcleo del Cometa
+En proceso.
 
-#### Prerequisites
-- **Unity Hub**: Download from [unity.com](https://unity.com/download)
-- **Unity 2022.3 LTS** (or the specific version required by the project)
-- **Git**: Download from [git-scm.com](https://git-scm.com/downloads)
-- **Visual Studio Community** or **Visual Studio Code** for script editing
+## Configuración e Instalación
 
-#### Installation Steps
+### Requisitos del Sistema
 
-1. **Create your repository**
-   ```bash
-   # Navigate to your projects folder
-   cd your-projects-folder
-   
-   # Clone this repository
-   git clone https://github.com/xaca/scripting2026.git
-   
-   # Rename the folder if desired
-   mv scripting2026 your-new-project-name
-   cd your-new-project-name
-   
-   # Optional: Create your own repository on GitHub
-   # Remove connection to original repository
-   rm -rf .git
-   
-   # Initialize your new repository
-   git init
-   git add .
-   git commit -m "First commit: base project"
-   
-   # Connect to your GitHub repository (replace with your URL)
-   git remote add origin https://github.com/your-username/your-repository.git
-   git push -u origin main
-   ```
+| Componente | Versión Mínima |
+|------------|----------------|
+| **Unity** | 6000.3.6f1 |
+| **Corgi Engine** | 9.0+ |
+| **Sistema Operativo** | Windows 10/11, macOS 10.15+ |
+| **RAM** | 8 GB |
+| **Almacenamiento** | 2 GB libres |
 
-2. **Open the project in Unity**
-   - Open Unity Hub
-   - Click "Open"
-   - Navigate to the cloned project folder
-   - Select the project root folder
-   - Unity will automatically detect the project
+### Pasos de Instalación
 
-3. **Verify installation**
-   - Wait for Unity to import all assets
-   - Open the main scene in `Assets/Juego/` or `Assets/CorgiEngine/`
-   - Press the Play button to verify everything works
+#### 1. Clonar el Repositorio
+```bash
+git clone https://github.com/Valengp2006/Scripting_Proyecto1.git
+cd Scripting_Proyecto1
+```
 
-#### Project Structure
-- `Assets/CorgiEngine/`: Corgi Engine files
-- `Assets/Juego/`: Your custom scripts and assets
-- `Assets/MMData/`: Data and configurations
-- `ProjectSettings/`: Unity project settings
+#### 2. Instalar Unity Hub
 
-#### Common Troubleshooting
-- **Unity version error**: Make sure you're using Unity 2022.3 LTS
-- **Missing assets**: Verify all files downloaded correctly
-- **Compilation errors**: Wait for Unity to finish importing all packages
+- Descarga Unity Hub desde [unity.com](https://unity.com/download)
+- Instala Unity **6000.3.6f1** (recomendado)
+- Asegúrate de incluir el módulo **"Windows Build Support"** o **"Mac Build Support"**
 
----
+#### 3. Importar Corgi Engine
 
-## Recursos Adicionales / Additional Resources
+**IMPORTANTE:** Corgi Engine no está incluido en el repositorio por licencia.
 
-- [Unity Documentation](https://docs.unity3d.com/)
-- [Corgi Engine Documentation](https://corgi-engine-docs.moremountains.com/)
-- [Git Tutorial](https://git-scm.com/docs/gittutorial)
+1. Compra **Corgi Engine** desde [Unity Asset Store](https://assetstore.unity.com/packages/templates/systems/corgi-engine-2d-2-5d-platformer-26617)
+2. Abre Unity Hub
+3. Agrega el proyecto: **"Add" → Selecciona la carpeta `Scripting_Proyecto1`**
+4. Abre el proyecto en Unity
+5. Ve a **Window → Package Manager → My Assets**
+6. Busca **Corgi Engine** y haz click en **"Import"**
+7. Importa **todos los archivos**
+
+#### 4. Configurar el Proyecto
+
+Una vez abierto el proyecto en Unity:
+
+1. Ve a **Edit → Project Settings → Player**
+2. Verifica que **Company Name** esté configurado
+3. Ve a **Edit → Project Settings → Quality**
+4. Selecciona un preset de calidad apropiado
+
+#### 5. Ejecutar el Juego
+
+1. Abre la escena del menú principal:  
+   `Assets/Scenes/MenuPrincipal.unity`
+2. Presiona el botón **Play ▶️** en el editor
+3. Usa las **flechas del teclado** para moverte y **Espacio** para saltar
+
+### Verificar que Todo Funciona
+
+**Checklist de instalación exitosa:**
+
+- [ ] Unity abre el proyecto sin errores
+- [ ] Corgi Engine está importado (carpeta `CorgiEngine` visible en Assets)
+- [ ] La escena `MenuPrincipal.unity` se carga correctamente
+- [ ] Al dar Play, el personaje se mueve con las flechas
+- [ ] No hay errores en la consola de Unity
+- [ ] Las monedas rotan y flotan
+- [ ] Los portales giran continuamente
+
+## Solución de Problemas Comunes
+
+### "NullReferenceException: Object reference not set..."
+**Solución:** Asegúrate de que Corgi Engine está completamente importado.
+
+### "The type or namespace name 'MoreMountains' could not be found"
+**Solución:** Importa Corgi Engine desde el Package Manager.
+
+### "Scene 'MenuPrincipal' couldn't be loaded"
+**Solución:** Ve a `File → Build Settings` y agrega las escenas manualmente.
+
+### El personaje no se mueve
+**Solución:** Verifica que el Input Manager esté configurado correctamente en Project Settings.
+
+### Las monedas no aparecen
+**Solución:** Asegúrate de estar en la rama correcta del repositorio:
+```bash
+git checkout sprites-plataformas
+```
+
+## Licencia
+
+Proyecto educativo para el curso de Scripting.  
+**Uso no comercial únicamente.**
+
+<div align="center">
+
+**¡Gracias por jugar Luna y las Estrellas Perdidas!**
+
+</div>

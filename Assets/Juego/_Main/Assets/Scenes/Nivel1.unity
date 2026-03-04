@@ -10157,6 +10157,26 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 106.92038
+      objectReference: {fileID: 0}
+    - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 45.24579
+      objectReference: {fileID: 0}
+    - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.5661
+      objectReference: {fileID: 0}
+    - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.7147
+      objectReference: {fileID: 0}
+    - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 14.6
       objectReference: {fileID: 0}
@@ -10231,12 +10251,12 @@ PrefabInstance:
     - target: {fileID: 2683692659774488468, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 43.37
+      value: 43.2
       objectReference: {fileID: 0}
     - target: {fileID: 2683692659774488468, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.90259993
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2683692659774488468, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
@@ -10282,6 +10302,28 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ShieldPowerUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6745639709919270871, guid: c63c5bfe67d18964599c88b90e2857bd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6745639709919270871, guid: c63c5bfe67d18964599c88b90e2857bd,
+        type: 3}
+      propertyPath: shieldSprite
+      value: 
+      objectReference: {fileID: -5904489766464416589, guid: 0e2f744215ffc5647bcaed9c2aa6b781,
+        type: 3}
+    - target: {fileID: 6745639709919270871, guid: c63c5bfe67d18964599c88b90e2857bd,
+        type: 3}
+      propertyPath: shieldedSprite
+      value: 
+      objectReference: {fileID: -5904489766464416589, guid: 0e2f744215ffc5647bcaed9c2aa6b781,
+        type: 3}
+    - target: {fileID: 6745639709919270871, guid: c63c5bfe67d18964599c88b90e2857bd,
+        type: 3}
+      propertyPath: shieldSpriteScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
