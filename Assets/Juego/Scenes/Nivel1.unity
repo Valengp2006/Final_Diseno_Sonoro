@@ -7314,12 +7314,12 @@ PrefabInstance:
     - target: {fileID: 2683692659774488468, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.2
+      value: -13.83
       objectReference: {fileID: 0}
     - target: {fileID: 2683692659774488468, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.1
+      value: -3.99
       objectReference: {fileID: 0}
     - target: {fileID: 2683692659774488468, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
@@ -7371,6 +7371,12 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6745639709919270871, guid: c63c5bfe67d18964599c88b90e2857bd,
+        type: 3}
+      propertyPath: shieldSprite
+      value: 
+      objectReference: {fileID: -5904489766464416589, guid: 0e2f744215ffc5647bcaed9c2aa6b781,
+        type: 3}
     - target: {fileID: 6745639709919270871, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
       propertyPath: shieldedSprite

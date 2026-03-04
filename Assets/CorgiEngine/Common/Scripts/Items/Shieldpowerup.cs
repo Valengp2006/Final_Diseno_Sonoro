@@ -6,27 +6,16 @@ using MoreMountains.Tools;
 public class ShieldPowerUp : MonoBehaviour
 {
     [Header("Power-Up Settings")]
-    [Tooltip("Cantidad de vida que se añade al recoger el power-up")]
-    public int healthToAdd = 50;
-    
     [Tooltip("Duración del efecto del escudo en segundos")]
     public float shieldDuration = 10f;
-    
-    [Tooltip("Porcentaje de reducción de daño (0.5 = 50% menos daño)")]
-    [Range(0f, 1f)]
-    public float damageReduction = 0.5f;
-    
+
     [Header("Visual Settings")]
-    [Tooltip("Sprite del personaje con escudo")]
-    public Sprite shieldedSprite;
-    
-    [Tooltip("Escala del sprite con escudo (ajusta si se ve muy grande o pequeño)")]
-    [Range(0.1f, 2f)]
-    public float shieldSpriteScale = 1f;
-    
+    [Tooltip("Sprite visual del escudo")]
+    public Sprite shieldSprite;
+
     [Tooltip("Efecto de partículas al recoger (opcional)")]
     public GameObject pickupEffect;
-    
+
     [Tooltip("Sonido al recoger (opcional)")]
     public AudioClip pickupSound;
 
@@ -34,95 +23,98 @@ public class ShieldPowerUp : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Verificar si quien toca es el personaje del jugador
         if (hasBeenCollected) return;
-        
+
         Character character = collision.GetComponent<Character>();
-        
+
         if (character != null && character.CharacterType == Character.CharacterTypes.Player)
         {
-            ApplyPowerUp(character);
+            Health health = character.GetComponent<Health>();
+
+            // Evitar recoger otro si ya está invulnerable
+            if (health != null && health.Invulnerable)
+                return;
+
+            ApplyPowerUp(character, health);
         }
     }
 
-    private void ApplyPowerUp(Character character)
+    private void ApplyPowerUp(Character character, Health health)
     {
         hasBeenCollected = true;
 
-        // 1. Aumentar la vida del personaje
-        Health health = character.GetComponent<Health>();
+        // Curar 50% de la vida máxima
         if (health != null)
         {
-            health.GetHealth(healthToAdd, character.gameObject);
+            float healAmount = health.MaximumHealth * 0.5f;
+            health.GetHealth(healAmount, character.gameObject);
         }
 
-        // 2. Cambiar el sprite del personaje con escala ajustable
-        SpriteRenderer characterSprite = character.GetComponentInChildren<SpriteRenderer>();
-        Sprite originalSprite = null;
-        Vector3 originalScale = Vector3.one;
-        
-        if (characterSprite != null && shieldedSprite != null)
-        {
-            originalSprite = characterSprite.sprite;
-            originalScale = characterSprite.transform.localScale;
-            
-            // Cambiar sprite y aplicar la escala manual
-            characterSprite.sprite = shieldedSprite;
-            characterSprite.transform.localScale = originalScale * shieldSpriteScale;
-        }
-
-        // 3. Iniciar la corrutina del efecto temporal
-        StartCoroutine(ShieldEffectCoroutine(character, health, characterSprite, originalSprite, originalScale));
-
-        // 4. Efectos visuales y de sonido
+        // Efectos visuales
         if (pickupEffect != null)
         {
             Instantiate(pickupEffect, transform.position, Quaternion.identity);
         }
 
+        // Sonido
         if (pickupSound != null)
         {
-            MMSoundManagerSoundPlayEvent.Trigger(pickupSound, MMSoundManager.MMSoundManagerTracks.Sfx, transform.position);
+            MMSoundManagerSoundPlayEvent.Trigger(
+                pickupSound,
+                MMSoundManager.MMSoundManagerTracks.Sfx,
+                transform.position
+            );
         }
 
-        // 5. Destruir el power-up
+        // Activar efecto temporal
+        StartCoroutine(ShieldEffectCoroutine(character, health));
+
+        // Destruir el ítem
         Destroy(gameObject);
     }
 
-    private IEnumerator ShieldEffectCoroutine(Character character, Health health,
-                                               SpriteRenderer characterSprite, Sprite originalSprite, Vector3 originalScale)
+    private IEnumerator ShieldEffectCoroutine(Character character, Health health)
     {
-        // Hacer al personaje temporalmente invulnerable o más resistente
-        if (health != null)
+        if (health == null)
+            yield break;
+
+        health.Invulnerable = true;
+
+        // Crear escudo visual
+        GameObject shieldObject = null;
+
+        if (shieldSprite != null)
         {
-            // Activar invulnerabilidad temporal
-            health.Invulnerable = true;
-            
-            // Opcional: Si no quieres invulnerabilidad total, puedes usar otro enfoque
-            // Por ahora usamos invulnerabilidad para simular el escudo
+            shieldObject = new GameObject("ShieldVisual");
+            shieldObject.transform.SetParent(character.transform);
+            shieldObject.transform.localPosition = Vector3.zero;
+            shieldObject.transform.localScale = Vector3.one * 0.5f;
+
+            SpriteRenderer sr = shieldObject.AddComponent<SpriteRenderer>();
+            sr.sprite = shieldSprite;
+            sr.sortingOrder = 10;
         }
 
-        // Esperar la duración del escudo
-        yield return new WaitForSeconds(shieldDuration);
+        float timer = 0f;
 
-        // Restaurar el sprite original y su escala
-        if (characterSprite != null && originalSprite != null)
+        while (timer < shieldDuration)
         {
-            characterSprite.sprite = originalSprite;
-            characterSprite.transform.localScale = originalScale;
+            // Si murió → romper inmediatamente
+            if (health.CurrentHealth <= 0)
+            {
+                break;
+            }
+
+            timer += Time.deltaTime;
+            yield return null;
         }
 
-        // Desactivar la invulnerabilidad
+        // Desactivar invulnerabilidad
         if (health != null)
-        {
             health.Invulnerable = false;
-        }
-    }
 
-    // Visualización en el editor
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.cyan;
-        Gizmos.DrawWireSphere(transform.position, 0.5f);
+        // Destruir escudo visual
+        if (shieldObject != null)
+            Destroy(shieldObject);
     }
 }
