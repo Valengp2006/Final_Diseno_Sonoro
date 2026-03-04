@@ -6047,6 +6047,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b487b5f5d17949ae91e260b3f88972f, type: 3}
+--- !u!1 &1407780604 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4153684820670148278, guid: c63c5bfe67d18964599c88b90e2857bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6306383487787954688}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1409808215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9292,6 +9298,23 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6306383487787954688}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2044218229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407780604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1cb4ffad9ec45341949982940b2a4db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  shieldDuration: 10
+  shieldSprite: {fileID: -5904489766464416589, guid: cae0b140de5142c4aa7885694f24ec53,
+    type: 3}
+  pickupEffect: {fileID: 0}
+  pickupSound: {fileID: 0}
 --- !u!1001 &2061654023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10157,6 +10180,26 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 117.494736
+      objectReference: {fileID: 0}
+    - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 45.941914
+      objectReference: {fileID: 0}
+    - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.0775
+      objectReference: {fileID: 0}
+    - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7815
+      objectReference: {fileID: 0}
+    - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 14.6
       objectReference: {fileID: 0}
@@ -10231,12 +10274,12 @@ PrefabInstance:
     - target: {fileID: 2683692659774488468, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 43.37
+      value: -14.4
       objectReference: {fileID: 0}
     - target: {fileID: 2683692659774488468, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.90259993
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 2683692659774488468, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
@@ -10283,10 +10326,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShieldPowerUp
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6745639709919270871, guid: c63c5bfe67d18964599c88b90e2857bd,
+        type: 3}
+      propertyPath: shieldedSprite
+      value: 
+      objectReference: {fileID: -5904489766464416589, guid: cae0b140de5142c4aa7885694f24ec53,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 6745639709919270871, guid: c63c5bfe67d18964599c88b90e2857bd, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4153684820670148278, guid: c63c5bfe67d18964599c88b90e2857bd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2044218229}
   m_SourcePrefab: {fileID: 100100000, guid: c63c5bfe67d18964599c88b90e2857bd, type: 3}
 --- !u!1001 &6593115027535066047
 PrefabInstance:
