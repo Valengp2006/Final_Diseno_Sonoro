@@ -154,9 +154,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   healthToAdd: 50
   shieldDuration: 10
-  damageReduction: 0.5
+  damageReduction: 1
   shieldedSprite: {fileID: 341793716104223504, guid: 89d277fe0aab9cd458410194bf1b03bb,
     type: 3}
-  shieldSpriteScale: 0.48
+  shieldSpriteScale: 1
   pickupEffect: {fileID: 0}
   pickupSound: {fileID: 0}
