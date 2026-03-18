@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cb330899b5ad9c34e90b900fdf50fcd3
+guid: 992e545dbc1b0fb43a00ecad014c1144
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1485980566623089727
-    second: golpe 2 escudo_0
+      213: -8604393490291977516
+    second: "da\xF1o 1 escudo_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: golpe 2 escudo_0
+      name: "da\xF1o 1 escudo_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1cb0c473c8cb06be0800000000000000
-      internalID: -1485980566623089727
+      spriteID: 4d2967765bd079880800000000000000
+      internalID: -8604393490291977516
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      golpe 2 escudo_0: -1485980566623089727
+      "da\xF1o 1 escudo_0": -8604393490291977516
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

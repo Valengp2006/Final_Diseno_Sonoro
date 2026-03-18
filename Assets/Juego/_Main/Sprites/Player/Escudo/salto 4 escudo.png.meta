@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 02a18ec920359f54795287b1e96911fe
+guid: d0fb331d0d37ee649a11ae405d34ca4c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -861082857896472612
-    second: golpe 1 escudo_0
+      213: -2916877444745468293
+    second: salto 4 escudo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: golpe 1 escudo_0
+      name: salto 4 escudo_0
       rect:
         serializedVersion: 2
         x: 19
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdf07e4f3b1dc04f0800000000000000
-      internalID: -861082857896472612
+      spriteID: b76e8941b6b2587d0800000000000000
+      internalID: -2916877444745468293
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      golpe 1 escudo_0: -861082857896472612
+      salto 4 escudo_0: -2916877444745468293
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
