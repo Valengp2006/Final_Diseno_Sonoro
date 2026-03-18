@@ -7314,12 +7314,20 @@ PrefabInstance:
     - target: {fileID: 2683692659774488468, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< Updated upstream:Assets/Juego/Scenes/Nivel1.unity
       value: -13.83
+=======
+      value: -13.86
+>>>>>>> Stashed changes:Assets/Juego/_Main/Assets/Scenes/Nivel1.unity
       objectReference: {fileID: 0}
     - target: {fileID: 2683692659774488468, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< Updated upstream:Assets/Juego/Scenes/Nivel1.unity
       value: -3.99
+=======
+      value: -4.02
+>>>>>>> Stashed changes:Assets/Juego/_Main/Assets/Scenes/Nivel1.unity
       objectReference: {fileID: 0}
     - target: {fileID: 2683692659774488468, guid: c63c5bfe67d18964599c88b90e2857bd,
         type: 3}
