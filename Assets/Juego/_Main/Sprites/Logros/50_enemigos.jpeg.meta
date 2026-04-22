@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ec6a53d0efa6f7a4d8caefa73fdbbfca
+guid: 29a080427f3c9464db74e0e486a9e121
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1474431851592805094
-    second: logro 1_0
+      213: -612987521212767608
+    second: 50_enemigos_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: logro 1_0
+      name: 50_enemigos_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6eae5b705fb367410800000000000000
-      internalID: 1474431851592805094
+      spriteID: 882ad52e81b3e77f0800000000000000
+      internalID: -612987521212767608
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      logro 1_0: 1474431851592805094
+      50_enemigos_0: -612987521212767608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

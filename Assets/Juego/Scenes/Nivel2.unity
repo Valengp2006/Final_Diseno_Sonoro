@@ -1554,6 +1554,63 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 384073518}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &387812012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 387812015}
+  - component: {fileID: 387812014}
+  - component: {fileID: 387812013}
+  m_Layer: 0
+  m_Name: AchievementSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &387812013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387812012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5ea3eca862840ec8791c580af233df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AchievementManager
+--- !u!114 &387812014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387812012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f831a627515471696f08ce6a3cd04e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AchievementPersistence
+--- !u!4 &387812015
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387812012}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.24635, y: -1.21106, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &403664813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8069,13 +8126,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 7.943984
-      value: 9.326206
       objectReference: {fileID: 0}
     - target: {fileID: 7051584054335274235, guid: 817a70dd2b3c2da4b9b554f208219939,
         type: 3}
       propertyPath: m_LocalScale.y
       value: 16.382248
-      value: 17.49988
       objectReference: {fileID: 0}
     - target: {fileID: 7051584054335274235, guid: 817a70dd2b3c2da4b9b554f208219939,
         type: 3}
@@ -8086,13 +8141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 64.4773
-      value: 72.0812
       objectReference: {fileID: 0}
     - target: {fileID: 7051584054335274235, guid: 817a70dd2b3c2da4b9b554f208219939,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 77.28
-      value: 70.3757
       objectReference: {fileID: 0}
     - target: {fileID: 7383926945515448429, guid: 817a70dd2b3c2da4b9b554f208219939,
         type: 3}
@@ -8165,3 +8218,4 @@ SceneRoots:
   - {fileID: 853191140}
   - {fileID: 351627803}
   - {fileID: 134228841}
+  - {fileID: 387812015}

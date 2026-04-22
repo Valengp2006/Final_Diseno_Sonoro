@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d3e752674af445c49a2113cfae04c286
+guid: 5f547658d51b53747aa46903a5e2850a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 198538188963638077
-    second: logro 5_0
+      213: 3889769990932785951
+    second: logros boton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: logro 5_0
+      name: logros boton_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 19
+        y: 384
+        width: 1043
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3be6835e6951c200800000000000000
-      internalID: 198538188963638077
+      spriteID: f1be587a23d3bf530800000000000000
+      internalID: 3889769990932785951
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      logro 5_0: 198538188963638077
+      logros boton_0: 3889769990932785951
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6bf074fcb92a96d438ed0370e09fc968
+guid: 1777c8810d34b4c4c8dd4a2e12b412fb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5026099285516235913
-    second: logro 9_0
+      213: 7260770904721277383
+    second: 100_monedas_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: logro 9_0
+      name: 100_monedas_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77bc5f84455bf3ab0800000000000000
-      internalID: -5026099285516235913
+      spriteID: 7c1476b2ba073c460800000000000000
+      internalID: 7260770904721277383
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      logro 9_0: -5026099285516235913
+      100_monedas_0: 7260770904721277383
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
