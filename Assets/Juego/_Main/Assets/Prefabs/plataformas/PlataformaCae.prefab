@@ -10,11 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 147738, guid: 2b179e9512bc746d2986b972ad6bb15f, type: 3}
       propertyPath: m_Name
-      value: Plataforma
-      objectReference: {fileID: 0}
-    - target: {fileID: 147738, guid: 2b179e9512bc746d2986b972ad6bb15f, type: 3}
-      propertyPath: m_Layer
-      value: 8
+      value: PlataformaCae
       objectReference: {fileID: 0}
     - target: {fileID: 456954, guid: 2b179e9512bc746d2986b972ad6bb15f, type: 3}
       propertyPath: m_LocalScale.x
@@ -22,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 456954, guid: 2b179e9512bc746d2986b972ad6bb15f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.603331
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 456954, guid: 2b179e9512bc746d2986b972ad6bb15f, type: 3}
       propertyPath: m_LocalScale.z
@@ -84,9 +80,47 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.0049080327
       objectReference: {fileID: 0}
+    - target: {fileID: 21299744, guid: 2b179e9512bc746d2986b972ad6bb15f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.55301523
+      objectReference: {fileID: 0}
+    - target: {fileID: 21299744, guid: 2b179e9512bc746d2986b972ad6bb15f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6417024
+      objectReference: {fileID: 0}
+    - target: {fileID: 21299744, guid: 2b179e9512bc746d2986b972ad6bb15f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9547169
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114591488990611860, guid: 2b179e9512bc746d2986b972ad6bb15f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147738, guid: 2b179e9512bc746d2986b972ad6bb15f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4585030026156910114}
   m_SourcePrefab: {fileID: 100100000, guid: 2b179e9512bc746d2986b972ad6bb15f, type: 3}
+--- !u!1 &5255440374069513730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147738, guid: 2b179e9512bc746d2986b972ad6bb15f,
+    type: 3}
+  m_PrefabInstance: {fileID: 5255440374069628696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4585030026156910114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5255440374069513730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea2ea465c9684f96b42d2d13eefd088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.FallingPlatform
+  TimeBeforeFall: 1
+  FallSpeed: 3
+  Tolerance: 0.1
+  RequiresCharacterAbove: 1

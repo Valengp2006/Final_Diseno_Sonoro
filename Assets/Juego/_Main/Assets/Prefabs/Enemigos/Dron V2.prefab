@@ -36,6 +36,8 @@ GameObject:
   - component: {fileID: 5312893649399128950}
   - component: {fileID: 7711617677710623274}
   - component: {fileID: 1386718122229943114}
+  - component: {fileID: 5279366992177497592}
+  - component: {fileID: 1815017319586540804}
   m_Layer: 13
   m_Name: Dron V2
   m_TagString: Untagged
@@ -774,7 +776,7 @@ MonoBehaviour:
     m_Bits: 512
   ApplyDamageOnTriggerEnter: 1
   ApplyDamageOnTriggerStay: 1
-  MinDamageCaused: 10
+  MinDamageCaused: 3
   MaxDamageCaused: 10
   TypedDamages: []
   DamageCausedKnockbackType: 1
@@ -857,10 +859,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: MoreMountains.Tools::MoreMountains.Tools.AIBrain
   Owner: {fileID: 0}
   States:
-  - StateName: 
+  - StateName: Volar
     Actions:
       array:
       - {fileID: 7711617677710623274}
+    Transitions:
+      array:
+      - Decision: {fileID: 5279366992177497592}
+        TrueState: Volar
+        FalseState: Die
+        LastDecisionEvaluation: 0
+  - StateName: Die
+    Actions:
+      array:
+      - {fileID: 1815017319586540804}
     Transitions:
       array: []
   TimeInThisState: 0
@@ -915,3 +927,30 @@ MonoBehaviour:
   LockHandlesOnXAxis: 0
   LockHandlesOnYAxis: 0
   LockHandlesOnZAxis: 0
+--- !u!114 &5279366992177497592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3742322298230684207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b5f584f53b952146a489818ed67fdfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoreMountains.CorgiEngine.AIDecisionIsDead
+  Label: 
+--- !u!114 &1815017319586540804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3742322298230684207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 457942e2b50577e49b9f8455c6e4ee52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoreMountains.CorgiEngine.AIActionDie
+  InitializationMode: 0
+  Label: 
