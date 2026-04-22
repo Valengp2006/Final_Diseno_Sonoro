@@ -8068,20 +8068,14 @@ PrefabInstance:
     - target: {fileID: 7051584054335274235, guid: 817a70dd2b3c2da4b9b554f208219939,
         type: 3}
       propertyPath: m_LocalScale.x
-<<<<<<< Updated upstream:Assets/Juego/Scenes/Nivel2.unity
       value: 7.943984
-=======
       value: 9.326206
->>>>>>> Stashed changes:Assets/Juego/_Main/Assets/Scenes/Nivel2.unity
       objectReference: {fileID: 0}
     - target: {fileID: 7051584054335274235, guid: 817a70dd2b3c2da4b9b554f208219939,
         type: 3}
       propertyPath: m_LocalScale.y
-<<<<<<< Updated upstream:Assets/Juego/Scenes/Nivel2.unity
       value: 16.382248
-=======
       value: 17.49988
->>>>>>> Stashed changes:Assets/Juego/_Main/Assets/Scenes/Nivel2.unity
       objectReference: {fileID: 0}
     - target: {fileID: 7051584054335274235, guid: 817a70dd2b3c2da4b9b554f208219939,
         type: 3}
@@ -8091,20 +8085,14 @@ PrefabInstance:
     - target: {fileID: 7051584054335274235, guid: 817a70dd2b3c2da4b9b554f208219939,
         type: 3}
       propertyPath: m_LocalPosition.x
-<<<<<<< Updated upstream:Assets/Juego/Scenes/Nivel2.unity
       value: 64.4773
-=======
       value: 72.0812
->>>>>>> Stashed changes:Assets/Juego/_Main/Assets/Scenes/Nivel2.unity
       objectReference: {fileID: 0}
     - target: {fileID: 7051584054335274235, guid: 817a70dd2b3c2da4b9b554f208219939,
         type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< Updated upstream:Assets/Juego/Scenes/Nivel2.unity
       value: 77.28
-=======
       value: 70.3757
->>>>>>> Stashed changes:Assets/Juego/_Main/Assets/Scenes/Nivel2.unity
       objectReference: {fileID: 0}
     - target: {fileID: 7383926945515448429, guid: 817a70dd2b3c2da4b9b554f208219939,
         type: 3}
