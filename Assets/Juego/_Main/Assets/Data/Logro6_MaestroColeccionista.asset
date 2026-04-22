@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02a86eec36b324429ed9ecf2937003e, type: 3}
   m_Name: Logro6_MaestroColeccionista
   m_EditorClassIdentifier: Assembly-CSharp::LogroData
-  id: 
-  titulo: 
-  descripcion: 
-  iconoSprite: {fileID: 0}
+  id: todas_monedas
+  titulo: Maestro Coleccionista
+  descripcion: Recolecta las 165 Monedas Estelares del juego
+  iconoSprite: {fileID: -738377646466656117, guid: 11b1058566500854e91684840f2abd17,
+    type: 3}

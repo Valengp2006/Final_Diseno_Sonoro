@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02a86eec36b324429ed9ecf2937003e, type: 3}
   m_Name: Logro7_Exterminador
   m_EditorClassIdentifier: Assembly-CSharp::LogroData
-  id: 
-  titulo: 
-  descripcion: 
-  iconoSprite: {fileID: 0}
+  id: 25_enemigos
+  titulo: Exterminador
+  descripcion: Derrota 25 enemigos
+  iconoSprite: {fileID: -800919242991344599, guid: 47c0d943696c3f14d83130274097a758,
+    type: 3}

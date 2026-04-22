@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02a86eec36b324429ed9ecf2937003e, type: 3}
   m_Name: Logro8_ProtectorEstacion
   m_EditorClassIdentifier: Assembly-CSharp::LogroData
-  id: 
-  titulo: 
-  descripcion: 
-  iconoSprite: {fileID: 0}
+  id: 50_enemigos
+  titulo: "Protector de la Estaci\xF3n"
+  descripcion: Derrota 50 enemigos
+  iconoSprite: {fileID: -612987521212767608, guid: 29a080427f3c9464db74e0e486a9e121,
+    type: 3}

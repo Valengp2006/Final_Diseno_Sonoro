@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02a86eec36b324429ed9ecf2937003e, type: 3}
   m_Name: Logro5_ColeccionistaExperto
   m_EditorClassIdentifier: Assembly-CSharp::LogroData
-  id: 
-  titulo: 
-  descripcion: 
-  iconoSprite: {fileID: 0}
+  id: 100_monedas
+  titulo: Coleccionista Experto
+  descripcion: Recolecta 100 Monedas Estelares
+  iconoSprite: {fileID: 7260770904721277383, guid: 1777c8810d34b4c4c8dd4a2e12b412fb,
+    type: 3}

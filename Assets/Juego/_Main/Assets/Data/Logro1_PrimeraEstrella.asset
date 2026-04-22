@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02a86eec36b324429ed9ecf2937003e, type: 3}
   m_Name: Logro1_PrimeraEstrella
   m_EditorClassIdentifier: Assembly-CSharp::LogroData
-  id: 
-  titulo: 
-  descripcion: 
-  iconoSprite: {fileID: 0}
+  id: nivel1_completado
+  titulo: Primera Estrella Recuperada
+  descripcion: "Recupera la Estrella Guardiana del Cintur\xF3n de Asteroides"
+  iconoSprite: {fileID: 2017087445671714136, guid: 6ea9e3f415bd0d64485458a9542796a0,
+    type: 3}

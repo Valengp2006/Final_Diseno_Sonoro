@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02a86eec36b324429ed9ecf2937003e, type: 3}
   m_Name: Logro3_TerceraEstrella
   m_EditorClassIdentifier: Assembly-CSharp::LogroData
-  id: 
-  titulo: 
-  descripcion: 
-  iconoSprite: {fileID: 0}
+  id: nivel3_completado
+  titulo: Tercera Estrella Recuperada
+  descripcion: "Recupera la Estrella Guardiana del N\xFAcleo del Cometa"
+  iconoSprite: {fileID: 3680076083270695854, guid: 01d518c06c1ac98418c6d82981daac15,
+    type: 3}

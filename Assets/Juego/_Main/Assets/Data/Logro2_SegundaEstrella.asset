@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02a86eec36b324429ed9ecf2937003e, type: 3}
   m_Name: Logro2_SegundaEstrella
   m_EditorClassIdentifier: Assembly-CSharp::LogroData
-  id: 
-  titulo: 
-  descripcion: 
-  iconoSprite: {fileID: 0}
+  id: nivel2_completado
+  titulo: Segunda Estrella Recuperada
+  descripcion: "Recupera la Estrella Guardiana de la Nebulosa P\xFArpura"
+  iconoSprite: {fileID: 3772659343422673634, guid: 98540b2d315e38a42896d7838c669bce,
+    type: 3}

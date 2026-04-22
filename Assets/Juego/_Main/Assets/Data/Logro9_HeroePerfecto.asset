@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02a86eec36b324429ed9ecf2937003e, type: 3}
   m_Name: Logro9_HeroePerfecto
   m_EditorClassIdentifier: Assembly-CSharp::LogroData
-  id: 
-  titulo: 
-  descripcion: 
-  iconoSprite: {fileID: 0}
+  id: sin_morir
+  titulo: "H\xE9roe Perfecto"
+  descripcion: Completa el juego sin perder ninguna vida
+  iconoSprite: {fileID: -3065462330417108146, guid: 76a52bb1d330e0845b9d31a344c659a5,
+    type: 3}
