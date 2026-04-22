@@ -251,6 +251,7 @@ GameObject:
   - component: {fileID: 321915543}
   - component: {fileID: 321915542}
   - component: {fileID: 321915541}
+  - component: {fileID: 321915544}
   m_Layer: 5
   m_Name: LogroTarjeta
   m_TagString: Untagged
@@ -329,6 +330,22 @@ RectTransform:
   m_AnchoredPosition: {x: 1009.9476, y: 426.84833}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &321915544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321915540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f5972c4a2d01b44e9f58b90ffb503a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LogroUI
+  iconoImage: {fileID: 0}
+  botonLogro: {fileID: 0}
+  colorDesbloqueado: {r: 1, g: 1, b: 1, a: 1}
+  colorBloqueado: {r: 0.3, g: 0.3, b: 0.3, a: 0.5}
 --- !u!1 &760508695
 GameObject:
   m_ObjectHideFlags: 0

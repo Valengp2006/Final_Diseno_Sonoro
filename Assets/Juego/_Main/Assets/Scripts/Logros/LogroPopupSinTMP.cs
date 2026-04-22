@@ -1,15 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class LogroPopup : MonoBehaviour
 {
     [Header("Referencias UI del Popup")]
     public GameObject panelPopup;
     public Image iconoPopup;
-    public TextMeshProUGUI tituloText;
-    public TextMeshProUGUI descripcionText;
-    public TextMeshProUGUI estadoText;
+    public Text tituloText;
+    public Text descripcionText;
+    public Text estadoText;
     public Button botonCerrar;
     
     [Header("Colores de Estado")]
@@ -62,12 +61,12 @@ public class LogroPopup : MonoBehaviour
         {
             if (desbloqueado)
             {
-                estadoText.text = "✓ DESBLOQUEADO";
+                estadoText.text = "DESBLOQUEADO";
                 estadoText.color = colorDesbloqueado;
             }
             else
             {
-                estadoText.text = "✗ BLOQUEADO";
+                estadoText.text = "BLOQUEADO";
                 estadoText.color = colorBloqueado;
             }
         }
