@@ -1,7 +1,8 @@
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "NuevoLogro", menuName = "Logros/Crear Logro")]
 [System.Serializable]
-public class LogroData
+public class LogroData : ScriptableObject
 {
     public string id;
     public string titulo;
