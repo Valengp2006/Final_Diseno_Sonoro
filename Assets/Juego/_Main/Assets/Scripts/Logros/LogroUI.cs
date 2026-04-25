@@ -13,10 +13,12 @@ public class LogroUI : MonoBehaviour
     
     private LogroData datosLogro;
     private bool estaDesbloqueado;
+    private LogroPopup popupRef;
 
-    public void Inicializar(LogroData datos)
+    public void Inicializar(LogroData datos, LogroPopup popup)
     {
         datosLogro = datos;
+        popupRef = popup;
         
         // Asignar sprite
         if (iconoImage != null && datos.iconoSprite != null)
@@ -47,11 +49,14 @@ public class LogroUI : MonoBehaviour
 
     private void AlHacerClic()
     {
-        // Buscar el popup manager y mostrar la descripción
-        LogroPopup popup = FindObjectOfType<LogroPopup>();
-        if (popup != null)
+        // Usar la referencia directa al popup
+        if (popupRef != null && datosLogro != null)
         {
-            popup.MostrarPopup(datosLogro, estaDesbloqueado);
+            popupRef.MostrarPopup(datosLogro, estaDesbloqueado);
+        }
+        else
+        {
+            Debug.LogError("Popup o datos del logro son null");
         }
     }
 

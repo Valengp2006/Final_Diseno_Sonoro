@@ -8,6 +8,9 @@ public class LogrosMenuManager : MonoBehaviour
     [Header("Contenedor de Logros")]
     public Transform contenedorLogros;
     
+    [Header("Popup de Logros")]
+    public LogroPopup popupLogros;
+    
     [Header("Datos de los 9 Logros")]
     public LogroData[] logros = new LogroData[9];
 
@@ -38,8 +41,8 @@ public class LogrosMenuManager : MonoBehaviour
             
             if (tarjetaUI != null)
             {
-                // Inicializar con los datos
-                tarjetaUI.Inicializar(logros[i]);
+                // Inicializar con los datos y pasar referencia al popup
+                tarjetaUI.Inicializar(logros[i], popupLogros);
             }
         }
     }
