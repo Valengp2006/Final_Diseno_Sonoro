@@ -34,9 +34,13 @@ Ubicado en una región densa y vibrante del espacio, este nivel introduce la mec
 
 El enfrentamiento final. Luna se adentra en las entrañas del Cometa Caos, una zona teñida de rojo por la energía inestable. Este nivel exige maestría en el platforming bajo presión.
 
-**Dificultad Dinámica:** Dependiendo de la configuración (Fácil, Medio o Difícil), Luna deberá enfrentarse directamente al Cometa Caos (Boss) para hacer aparecer la bandera de victoria.
+### Dificultad Dinámica: 
 
-**Mecánica de Combate:** Solo al derrotar al guardián del núcleo se desbloqueará el camino final hacia la salvación de la estación.
+Dependiendo de la configuración (Fácil, Medio o Difícil), Luna deberá enfrentarse directamente al Cometa Caos (Boss) para hacer aparecer la bandera de victoria.
+
+### Mecánica de Combate:
+
+Solo al derrotar al guardián del núcleo se desbloqueará el camino final hacia la salvación de la estación.
 
 ## Interfaz y Experiencia de Usuario (UI/UX)
 
