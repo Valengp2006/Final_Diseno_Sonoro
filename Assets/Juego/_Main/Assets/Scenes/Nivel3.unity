@@ -751,6 +751,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: GameOverScene
+      value: Perder
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -772,7 +776,7 @@ PrefabInstance:
     - target: {fileID: 2845768428042401644, guid: 9f46fc107afec4445994f753a474e194,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28.000122
+      value: -28.000244
       objectReference: {fileID: 0}
     - target: {fileID: 2845768428042412992, guid: 9f46fc107afec4445994f753a474e194,
         type: 3}
@@ -8618,7 +8622,7 @@ PrefabInstance:
     - target: {fileID: 600355638442678279, guid: 1557d56d828721542a4a0b1f1ad77408,
         type: 3}
       propertyPath: LevelName
-      value: LevelSelect
+      value: Ganar
       objectReference: {fileID: 0}
     - target: {fileID: 600355638453415397, guid: 1557d56d828721542a4a0b1f1ad77408,
         type: 3}

@@ -251,5 +251,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Core/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
+  - enabled: 1
+    path: Assets/Juego/_Main/Assets/Scenes/Perder.unity
+    guid: 42bf65e1a40a847c3b5baa2c25067e8d
+  - enabled: 1
+    path: Assets/Juego/_Main/Assets/Scenes/Ganar.unity
+    guid: 8bdc6ed25008b4aa187b607034473662
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
