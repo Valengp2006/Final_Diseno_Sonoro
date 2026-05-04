@@ -22,15 +22,33 @@ Cada zona presenta sus propios desafíos: asteroides flotantes, nubes de gas que
 ## Los Tres Niveles
 
 ### Nivel 1: Cinturón de Asteroides
-Un campo caótico de rocas flotantes donde Luna debe saltar entre asteroides para alcanzar la primera Estrella Guardiana. Algunas plataformas se mueven , otras son estables pero están infestadas de meteoritos vivientes y drones espaciales.
 
-**Easter egg:** El gato de Luna
+Un campo caótico de rocas flotantes donde Luna debe saltar entre asteroides para alcanzar la primera Estrella Guardiana. Algunas plataformas se mueven, otras son estables pero están infestadas de meteoritos vivientes y drones espaciales.
+Easter egg: El gato de Luna.
 
 ### Nivel 2: Nebulosa Púrpura
-Una zona de escalada y movimiento vertical.
+
+Ubicado en una región densa y vibrante del espacio, este nivel introduce la mecánica de Navegación Interdimensional. Luna deberá utilizar pares de portales vinculados (Portal de Llegada y Portal de Salida) para atravesar grandes vacíos y alcanzar plataformas elevadas. La precisión en el salto tras salir de un portal es clave para no caer al abismo estelar.
 
 ### Nivel 3: Núcleo del Cometa
-En proceso.
+
+El enfrentamiento final. Luna se adentra en las entrañas del Cometa Caos, una zona teñida de rojo por la energía inestable. Este nivel exige maestría en el platforming bajo presión.
+
+**Dificultad Dinámica:** Dependiendo de la configuración (Fácil, Medio o Difícil), Luna deberá enfrentarse directamente al Cometa Caos (Boss) para hacer aparecer la bandera de victoria.
+
+**Mecánica de Combate:** Solo al derrotar al guardián del núcleo se desbloqueará el camino final hacia la salvación de la estación.
+
+## Interfaz y Experiencia de Usuario (UI/UX)
+
+El juego cuenta con un sistema de menús integrado para una experiencia fluida:
+
+**Menú de Pausa:** Permite detener la acción en cualquier momento, ofreciendo opciones para reanudar o volver al inicio.
+
+**Pantalla de Victoria:** Al tocar la bandera o estrella final, se presenta el trofeo de las Estrellas Guardianas recuperadas y la opción de volver al Home.
+
+**Pantalla de Derrota:** Si Luna pierde sus 5 vidas, aparecerá el Meteorito Triste, indicando que la estación está en peligro. Incluye navegación rápida para reintentar desde el menú principal.
+
+**Ventana de Logros:** Sistema integrado para rastrear el progreso de Luna y las estrellas recuperadas a lo largo de la aventura.
 
 ## Configuración e Instalación
 
