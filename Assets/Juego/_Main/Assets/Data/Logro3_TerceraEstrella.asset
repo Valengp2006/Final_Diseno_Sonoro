@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d02a86eec36b324429ed9ecf2937003e, type: 3}
+  m_Name: Logro3_TerceraEstrella
+  m_EditorClassIdentifier: Assembly-CSharp::LogroData
+  id: nivel3_completado
+  titulo: Tercera Estrella Recuperada
+  descripcion: "Recupera la Estrella Guardiana del N\xFAcleo del Cometa"
+  iconoSprite: {fileID: 3680076083270695854, guid: 01d518c06c1ac98418c6d82981daac15,
+    type: 3}
