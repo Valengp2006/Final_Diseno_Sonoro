@@ -3920,7 +3920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.BackgroundMusic
   InitializationTime: 0
-  SoundClip: {fileID: 0}
+  SoundClip: {fileID: 8300000, guid: cd9dc4c5d0e7743eaa94c6428bbeaed2, type: 3}
   Loop: 1
   ID: 255
 --- !u!4 &836678891
@@ -9843,7 +9843,7 @@ PrefabInstance:
     - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 28.967892
+      value: 40.171345
       objectReference: {fileID: 0}
     - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
         type: 3}
@@ -9858,7 +9858,7 @@ PrefabInstance:
     - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.0748
       objectReference: {fileID: 0}
     - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
         type: 3}
