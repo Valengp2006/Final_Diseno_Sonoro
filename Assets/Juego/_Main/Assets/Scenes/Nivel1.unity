@@ -3890,6 +3890,54 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5eeada9bc9f76094190b1383e67ed35b, type: 3}
+--- !u!1 &836678889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 836678891}
+  - component: {fileID: 836678890}
+  m_Layer: 0
+  m_Name: Nivel_BGM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &836678890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836678889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50dfe57b03522e148b2bd9f2b37504bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.BackgroundMusic
+  InitializationTime: 0
+  SoundClip: {fileID: 8300000, guid: cd9dc4c5d0e7743eaa94c6428bbeaed2, type: 3}
+  Loop: 1
+  ID: 255
+--- !u!4 &836678891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836678889}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 606.27673, y: 321.1733, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &846890258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9795,7 +9843,7 @@ PrefabInstance:
     - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 28.967892
+      value: 40.171345
       objectReference: {fileID: 0}
     - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
         type: 3}
@@ -9810,7 +9858,7 @@ PrefabInstance:
     - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.0748
       objectReference: {fileID: 0}
     - target: {fileID: 492701287146927403, guid: 09030747066d5cd41b53294efbbc5a2f,
         type: 3}
@@ -10204,3 +10252,4 @@ SceneRoots:
   - {fileID: 289343443}
   - {fileID: 1796069810}
   - {fileID: 1316661592}
+  - {fileID: 836678891}
