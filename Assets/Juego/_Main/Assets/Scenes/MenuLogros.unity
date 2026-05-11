@@ -256,6 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1535368092}
   - component: {fileID: 1535368091}
+  - component: {fileID: 1535368093}
   m_Layer: 0
   m_Name: AchievementSystem
   m_TagString: Untagged
@@ -290,6 +291,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1535368093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535368090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5ea3eca862840ec8791c580af233df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AchievementManager
 --- !u!1 &1869777243
 GameObject:
   m_ObjectHideFlags: 0
