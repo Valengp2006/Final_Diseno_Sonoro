@@ -7291,6 +7291,7 @@ GameObject:
   - component: {fileID: 1413860150}
   - component: {fileID: 1413860154}
   - component: {fileID: 1413860155}
+  - component: {fileID: 1413860156}
   m_Layer: 13
   m_Name: Boss
   m_TagString: Untagged
@@ -8208,7 +8209,7 @@ MonoBehaviour:
   PlayerID: 
   InitialFacingDirection: 0
   DirectionOnSpawn: 0
-  CharacterAnimator: {fileID: 0}
+  CharacterAnimator: {fileID: 1413860156}
   UseDefaultMecanim: 1
   PerformAnimatorSanityChecks: 1
   DisableAnimatorLogs: 0
@@ -8517,6 +8518,28 @@ MonoBehaviour:
   Label: 
   NewWeapon: {fileID: 114000010596316938, guid: e5cb2a143d06aa54e81c1ac00b4825d6,
     type: 3}
+--- !u!95 &1413860156
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dc4a17f7dc7828d40be14a59cfd28a35, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1421460623
 PrefabInstance:
   m_ObjectHideFlags: 0
