@@ -815,12 +815,17 @@ PrefabInstance:
     - target: {fileID: 2845768428042401644, guid: 9f46fc107afec4445994f753a474e194,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28.000244
+      value: -28.000122
       objectReference: {fileID: 0}
     - target: {fileID: 2845768428042412992, guid: 9f46fc107afec4445994f753a474e194,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -169
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845768428042423412, guid: 9f46fc107afec4445994f753a474e194,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -71.400024
       objectReference: {fileID: 0}
     - target: {fileID: 2845768428042438364, guid: 9f46fc107afec4445994f753a474e194,
         type: 3}
@@ -4290,6 +4295,156 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 660934125}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &688704548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 688704549}
+  - component: {fileID: 688704550}
+  m_Layer: 13
+  m_Name: Weapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &688704549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688704548}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1413860142}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &688704550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688704548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8392d75dc5cc4174adffea150b3dae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.Weapon
+  TriggerMode: 1
+  Interruptable: 0
+  InitializeOnStart: 0
+  DelayBeforeUse: 0
+  DelayBeforeUseReleaseInterruption: 1
+  TimeBetweenUses: 1
+  TimeBetweenUsesReleaseInterruption: 1
+  CooldownDuration: 0
+  UseBurstMode: 0
+  BurstLength: 3
+  BurstTimeBetweenShots: 0.1
+  MagazineBased: 0
+  MagazineSize: 30
+  AutoReload: 0
+  ReloadTime: 2
+  AmmoConsumedPerShot: 1
+  AutoDestroyWhenEmpty: 0
+  AutoDestroyWhenEmptyDelay: 1
+  CurrentAmmoLoaded: 0
+  WeaponAttachmentOffset: {x: 0, y: 0, z: 0}
+  FlipWeaponOnCharacterFlip: 1
+  FlipValue: {x: -1, y: 1, z: 1}
+  LeftHandHandle: {fileID: 0}
+  RightHandHandle: {fileID: 0}
+  ModifyMovementWhileEquipped: 0
+  PermanentMovementMultiplier: 0
+  ModifyMovementWhileAttacking: 0
+  MovementMultiplier: 0
+  AlwaysResetMultiplierToInitial: 1
+  PreventHorizontalGroundMovementWhileInUse: 0
+  PreventHorizontalAirMovementWhileInUse: 0
+  SetForceWhileInUse: 0
+  ForceWhileInUse: {x: 0, y: 0}
+  DisableGravityWhileInUse: 0
+  PreventFlipWhileInUse: 0
+  Animators: []
+  MirrorCharacterAnimatorParameters: 0
+  EquippedAnimationParameter: 
+  IdleAnimationParameter: 
+  StartAnimationParameter: 
+  DelayBeforeUseAnimationParameter: 
+  SingleUseAnimationParameter: 
+  UseAnimationParameter: 
+  DelayBetweenUsesAnimationParameter: 
+  InCooldownAnimationParameter: 
+  StopAnimationParameter: 
+  ReloadStartAnimationParameter: 
+  ReloadAnimationParameter: 
+  ReloadStopAnimationParameter: 
+  WeaponAngleAnimationParameter: 
+  WeaponAngleRelativeAnimationParameter: 
+  WeaponStartMMFeedback: {fileID: 0}
+  WeaponUsedMMFeedback: {fileID: 0}
+  WeaponStopMMFeedback: {fileID: 0}
+  WeaponReloadMMFeedback: {fileID: 0}
+  WeaponReloadNeededMMFeedback: {fileID: 0}
+  WeaponOnHitFeedback: {fileID: 0}
+  WeaponOnMissFeedback: {fileID: 0}
+  WeaponOnHitDamageableFeedback: {fileID: 0}
+  WeaponOnHitNonDamageableFeedback: {fileID: 0}
+  WeaponOnKillFeedback: {fileID: 0}
+  ApplyRecoilOnUse: 0
+  RecoilOnUseProperties:
+    RecoilForceGrounded: 10
+    RecoilForceAirborne: 10
+    RecoilAngleModifier: 0
+    DirectionMultiplier: {x: 1, y: 1}
+    RecoilStyle: 2
+    Delay: 0
+    RecoilFeedback: {fileID: 0}
+  ApplyRecoilOnHitDamageable: 0
+  RecoilOnHitDamageableProperties:
+    RecoilForceGrounded: 10
+    RecoilForceAirborne: 10
+    RecoilAngleModifier: 0
+    DirectionMultiplier: {x: 1, y: 1}
+    RecoilStyle: 2
+    Delay: 0
+    RecoilFeedback: {fileID: 0}
+  ApplyRecoilOnHitNonDamageable: 0
+  RecoilOnHitNonDamageableProperties:
+    RecoilForceGrounded: 10
+    RecoilForceAirborne: 10
+    RecoilAngleModifier: 0
+    DirectionMultiplier: {x: 1, y: 1}
+    RecoilStyle: 2
+    Delay: 0
+    RecoilFeedback: {fileID: 0}
+  ApplyRecoilOnMiss: 0
+  RecoilOnMissProperties:
+    RecoilForceGrounded: 10
+    RecoilForceAirborne: 10
+    RecoilAngleModifier: 0
+    DirectionMultiplier: {x: 1, y: 1}
+    RecoilStyle: 2
+    Delay: 0
+    RecoilFeedback: {fileID: 0}
+  ApplyRecoilOnKill: 0
+  RecoilOnKillProperties:
+    RecoilForceGrounded: 10
+    RecoilForceAirborne: 10
+    RecoilAngleModifier: 0
+    DirectionMultiplier: {x: 1, y: 1}
+    RecoilStyle: 2
+    Delay: 0
+    RecoilFeedback: {fileID: 0}
 --- !u!1 &777207106
 GameObject:
   m_ObjectHideFlags: 0
@@ -7052,10 +7207,22 @@ GameObject:
   - component: {fileID: 1413860120}
   - component: {fileID: 1413860119}
   - component: {fileID: 1413860118}
+  - component: {fileID: 1413860149}
   - component: {fileID: 1413860117}
   - component: {fileID: 1413860115}
   - component: {fileID: 1413860114}
   - component: {fileID: 1413860143}
+  - component: {fileID: 1413860145}
+  - component: {fileID: 1413860144}
+  - component: {fileID: 1413860146}
+  - component: {fileID: 1413860147}
+  - component: {fileID: 1413860148}
+  - component: {fileID: 1413860153}
+  - component: {fileID: 1413860152}
+  - component: {fileID: 1413860151}
+  - component: {fileID: 1413860150}
+  - component: {fileID: 1413860154}
+  - component: {fileID: 1413860155}
   m_Layer: 13
   m_Name: Boss
   m_TagString: Untagged
@@ -7079,7 +7246,7 @@ MonoBehaviour:
   Label: 
   ChangeDirectionOnWall: 0
   AvoidFalling: 1
-  HoleDetectionOffset: {x: -0.59, y: -3.41, z: 0}
+  HoleDetectionOffset: {x: -0.59, y: -2.41, z: 0}
   HoleDetectionRaycastLength: 0.5
   UseCustomLayermask: 0
   ObstaclesLayermask:
@@ -7123,13 +7290,114 @@ MonoBehaviour:
     Transitions:
       array:
       - Decision: {fileID: 1413860143}
-        TrueState: Empezar
+        TrueState: Fase 1
         FalseState: Esperar jugador
         LastDecisionEvaluation: 0
-  - StateName: Empezar
+  - StateName: Fase 1
     Actions:
       array:
       - {fileID: 1413860114}
+    Transitions:
+      array:
+      - Decision: {fileID: 1413860146}
+        TrueState: Check 0
+        FalseState: Fase 1
+        LastDecisionEvaluation: 0
+  - StateName: Check 0
+    Actions:
+      array:
+      - {fileID: 1413860115}
+    Transitions:
+      array:
+      - Decision: {fileID: 1413860145}
+        TrueState: Cambio
+        FalseState: Fase 1 (shoot)
+        LastDecisionEvaluation: 0
+  - StateName: Fase 1 (shoot)
+    Actions:
+      array:
+      - {fileID: 1413860144}
+    Transitions:
+      array:
+      - Decision: {fileID: 1413860146}
+        TrueState: Check 1
+        FalseState: Fase 1 (shoot)
+        LastDecisionEvaluation: 0
+  - StateName: Check 1
+    Actions:
+      array:
+      - {fileID: 1413860115}
+    Transitions:
+      array:
+      - Decision: {fileID: 1413860145}
+        TrueState: Cambio
+        FalseState: Fase 1
+        LastDecisionEvaluation: 0
+  - StateName: Cambio
+    Actions:
+      array:
+      - {fileID: 1413860147}
+    Transitions:
+      array:
+      - Decision: {fileID: 1413860148}
+        TrueState: Fase 2
+        FalseState: Cambio
+        LastDecisionEvaluation: 0
+  - StateName: Fase 2
+    Actions:
+      array:
+      - {fileID: 1413860144}
+    Transitions:
+      array:
+      - Decision: {fileID: 1413860150}
+        TrueState: Check 2
+        FalseState: Fase 2
+        LastDecisionEvaluation: 0
+  - StateName: Check 2
+    Actions:
+      array:
+      - {fileID: 1413860115}
+    Transitions:
+      array:
+      - Decision: {fileID: 1413860152}
+        TrueState: Fase 3
+        FalseState: Jump
+        LastDecisionEvaluation: 0
+  - StateName: Jump
+    Actions:
+      array:
+      - {fileID: 1413860151}
+    Transitions:
+      array:
+      - Decision: {fileID: 1413860146}
+        TrueState: Check 3
+        FalseState: Jump
+        LastDecisionEvaluation: 0
+  - StateName: Check 3
+    Actions:
+      array:
+      - {fileID: 1413860115}
+    Transitions:
+      array:
+      - Decision: {fileID: 1413860152}
+        TrueState: Fase 3
+        FalseState: Fase 2
+        LastDecisionEvaluation: 0
+  - StateName: Fase 3
+    Actions:
+      array:
+      - {fileID: 1413860155}
+    Transitions:
+      array:
+      - Decision: {fileID: 1413860148}
+        TrueState: Fase 3 (Ataque)
+        FalseState: Fase 3
+        LastDecisionEvaluation: 0
+  - StateName: Fase 3 (Ataque)
+    Actions:
+      array:
+      - {fileID: 1413860114}
+      - {fileID: 1413860144}
     Transitions:
       array: []
   TimeInThisState: 0
@@ -7201,8 +7469,9 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  InitialWeapon: {fileID: 0}
-  CanPickupWeapons: 1
+  InitialWeapon: {fileID: 114000010596316938, guid: 31b98a142002e4a0fadf0e937e5d458f,
+    type: 3}
+  CanPickupWeapons: 0
   WeaponAttachment: {fileID: 0}
   ForceWeaponScaleResetOnEquip: 0
   ForceWeaponRotationResetOnEquip: 0
@@ -7644,7 +7913,7 @@ MonoBehaviour:
   CurrentHealth: 0
   TemporarilyInvulnerable: 0
   PostDamageInvulnerable: 0
-  InitialHealth: 10
+  InitialHealth: 3
   MaximumHealth: 10
   Invulnerable: 0
   ResetHealthOnEnable: 1
@@ -7816,17 +8085,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0.47919846, y: -0.30265045}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.2928317, y: 0.31381586}
     oldSize: {x: 7.125, y: 5.75}
     newSize: {x: 1.14, y: 0.92}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 7.125, y: 3.75}
+  m_Size: {x: 4.955284, y: 3.3891144}
   m_EdgeRadius: 0
 --- !u!50 &1413860139
 Rigidbody2D:
@@ -7962,7 +8231,8 @@ Transform:
   m_LocalPosition: {x: 90.65745, y: 64.12867, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 688704549}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1413860143
@@ -7983,6 +8253,202 @@ MonoBehaviour:
   TargetLayer:
     serializedVersion: 2
     m_Bits: 512
+--- !u!114 &1413860144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db0a72b251368a642af6e8b62c666ba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIActionShoot
+  InitializationMode: 0
+  Label: 
+  FaceTarget: 1
+  AimAtTarget: 0
+  TargetOffset: {x: 0, y: 0, z: 0}
+  TargetHandleWeapon: {fileID: 0}
+--- !u!114 &1413860145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80e986d14b3dfc428c2cde1ed3f41b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIDecisionHealth
+  Label: 
+  TrueIfHealthIs: 0
+  HealthValue: 3
+  OnlyOnce: 1
+--- !u!114 &1413860146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b7939ffd2f5df4e8efb5fa83e99637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIDecisionTimeInState
+  Label: 
+  AfterTimeMin: 2
+  AfterTimeMax: 2
+--- !u!114 &1413860147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d6b69d88cf584492eef833cde0479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIActionChangeWeapon
+  InitializationMode: 0
+  Label: 
+  NewWeapon: {fileID: 114000010596316938, guid: 03d79de7548eade429834bf9350fee2b,
+    type: 3}
+--- !u!114 &1413860148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b7939ffd2f5df4e8efb5fa83e99637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIDecisionTimeInState
+  Label: 
+  AfterTimeMin: 1
+  AfterTimeMax: 1
+--- !u!114 &1413860149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fc24513c89140afa90465a45f5d6fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.Stompable
+  KnockbackForce: {x: 10, y: 15}
+  DamageCausedKnockbackType: 1
+  DamagePerStomp: 1
+  ResetNumberOfJumpsOnStomp: 0
+  InvincibilityDuration: 2
+  PlayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  NumberOfRays: 5
+  RaycastLength: 0.5
+  RaycastVerticalOffset: 0.01
+  StomperMustBeAlive: 1
+--- !u!114 &1413860150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b7939ffd2f5df4e8efb5fa83e99637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIDecisionTimeInState
+  Label: 
+  AfterTimeMin: 5
+  AfterTimeMax: 5
+--- !u!114 &1413860151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13318a0083aad97498ff68bf0f5dc0a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIActionJump
+  InitializationMode: 0
+  Label: 
+  NumberOfJumps: 1
+--- !u!114 &1413860152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80e986d14b3dfc428c2cde1ed3f41b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIDecisionHealth
+  Label: 
+  TrueIfHealthIs: 0
+  HealthValue: 2
+  OnlyOnce: 1
+--- !u!114 &1413860153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b42cab65bb5781c4b96137a43fd29fc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIActionFaceTarget
+  InitializationMode: 0
+  Label: 
+  OnlyRunOnce: 0
+--- !u!114 &1413860154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fce3bcf6da4a2d46a0a02c021b5bb0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIActionMoveTowardsTarget
+  InitializationMode: 0
+  Label: 
+  MinimumDistance: 1
+--- !u!114 &1413860155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d6b69d88cf584492eef833cde0479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIActionChangeWeapon
+  InitializationMode: 0
+  Label: 
+  NewWeapon: {fileID: 114000010596316938, guid: e5cb2a143d06aa54e81c1ac00b4825d6,
+    type: 3}
 --- !u!1001 &1421460623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11161,11 +11627,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 80.41
+      value: 67.41
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 35.22
+      value: 64.72
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.z
