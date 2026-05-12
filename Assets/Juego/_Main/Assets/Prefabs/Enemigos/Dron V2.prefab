@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 1386718122229943114}
   - component: {fileID: 5279366992177497592}
   - component: {fileID: 1815017319586540804}
+  - component: {fileID: -7133688949164386896}
   m_Layer: 13
   m_Name: Dron V2
   m_TagString: Untagged
@@ -954,3 +955,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MoreMountains.CorgiEngine.AIActionDie
   InitializationMode: 0
   Label: 
+--- !u!114 &-7133688949164386896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3742322298230684207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964d72ed3d8b5493581bec566331cf46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AjusteDificultadCorgi
+  esElBoss: 1
+  saludFacil: 10
+  saludMedia: 20
+  saludDificil: 30
+  danoFacil: 2
+  danoMedio: 4
+  danoDificil: 6
