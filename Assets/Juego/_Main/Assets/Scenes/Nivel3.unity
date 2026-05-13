@@ -7381,6 +7381,7 @@ GameObject:
   - component: {fileID: 1413860154}
   - component: {fileID: 1413860155}
   - component: {fileID: 1413860156}
+  - component: {fileID: 1413860157}
   m_Layer: 13
   m_Name: Boss
   m_TagString: Untagged
@@ -7454,7 +7455,7 @@ MonoBehaviour:
   - StateName: Fase 1
     Actions:
       array:
-      - {fileID: 1413860114}
+      - {fileID: 1413860155}
     Transitions:
       array:
       - Decision: {fileID: 1413860146}
@@ -7494,7 +7495,7 @@ MonoBehaviour:
   - StateName: Cambio
     Actions:
       array:
-      - {fileID: 1413860147}
+      - {fileID: 0}
     Transitions:
       array:
       - Decision: {fileID: 1413860148}
@@ -8629,6 +8630,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1413860157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413860113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79bc3e56496804b48a0705d1aedf38a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossPhaseController
+  bossAnimator: {fileID: 1413860156}
+  vidaMaxima: 100
 --- !u!1001 &1421460623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11688,7 +11703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1977187259
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12308,18 +12323,4 @@ SceneRoots:
   - {fileID: 1441368457}
   - {fileID: 769981625}
   - {fileID: 1413860142}
-  - {fileID: 271912104}
-  - {fileID: 1402617242}
-  - {fileID: 1071735175}
-  - {fileID: 725828289}
-  - {fileID: 1683285782}
-  - {fileID: 2100438189}
-  - {fileID: 800550958}
-  - {fileID: 1196495148}
-  - {fileID: 795267902}
-  - {fileID: 1990499955}
-  - {fileID: 1519137453}
-  - {fileID: 60073369}
-  - {fileID: 1831352477}
-  - {fileID: 1495660769}
   - {fileID: 245704751}
