@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 3049365761467083534}
   - component: {fileID: 8508795135483048928}
   - component: {fileID: 4309408039570028587}
+  - component: {fileID: 3759195270329755757}
   m_Layer: 13
   m_Name: Meteorito V2
   m_TagString: Untagged
@@ -1009,3 +1010,21 @@ MonoBehaviour:
   TargetLayer:
     serializedVersion: 2
     m_Bits: 512
+--- !u!114 &3759195270329755757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6141132727756155099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964d72ed3d8b5493581bec566331cf46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AjusteDificultadCorgi
+  saludFacil: 10
+  saludMedia: 30
+  saludDificil: 50
+  danoFacil: 3
+  danoMedio: 5
+  danoDificil: 10

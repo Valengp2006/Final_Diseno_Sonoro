@@ -37,6 +37,7 @@ GameObject:
   - component: {fileID: 5298699773817878962}
   - component: {fileID: 7993099424826870953}
   - component: {fileID: 5814980694084031340}
+  - component: {fileID: 4896615765388642872}
   m_Layer: 13
   m_Name: Alien V2
   m_TagString: Untagged
@@ -973,3 +974,22 @@ MonoBehaviour:
   RaycastLength: 0.5
   RaycastVerticalOffset: 0.01
   StomperMustBeAlive: 1
+--- !u!114 &4896615765388642872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2529447378956893817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964d72ed3d8b5493581bec566331cf46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AjusteDificultadCorgi
+  esElBoss: 0
+  saludFacil: 10
+  saludMedia: 30
+  saludDificil: 50
+  danoFacil: 1
+  danoMedio: 3
+  danoDificil: 5
