@@ -160,6 +160,7 @@ GameObject:
   - component: {fileID: 8364201079159184033}
   - component: {fileID: 3983847380576623153}
   - component: {fileID: 4484507061375075293}
+  - component: {fileID: 7656002071741185949}
   m_Layer: 5
   m_Name: Btn_Facil
   m_TagString: Untagged
@@ -183,7 +184,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.4794, y: 157}
+  m_AnchoredPosition: {x: 4.4794, y: 184}
   m_SizeDelta: {x: 610.9582, y: 104.8554}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8364201079159184033
@@ -280,6 +281,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7656002071741185949}
+        m_TargetAssemblyTypeName: ButtonSoundUI, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7656002071741185949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096622111637669597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67d4a4dda0055499b87fbc8ecfe1da00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundUI
+  SoundClip: {fileID: 8300000, guid: 631abe9fc86804bb186f234bdd9bddd4, type: 3}
+  Volume: 1
 --- !u!1 &1477928806207151921
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,6 +319,7 @@ GameObject:
   - component: {fileID: 8973045024641503902}
   - component: {fileID: 2521088546195218038}
   - component: {fileID: 2471818816383832043}
+  - component: {fileID: 8317917777255486834}
   m_Layer: 5
   m_Name: Btn_Atras
   m_TagString: Untagged
@@ -412,6 +440,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8317917777255486834}
+        m_TargetAssemblyTypeName: ButtonSoundUI, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8317917777255486834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477928806207151921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67d4a4dda0055499b87fbc8ecfe1da00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundUI
+  SoundClip: {fileID: 8300000, guid: 631abe9fc86804bb186f234bdd9bddd4, type: 3}
+  Volume: 1
 --- !u!1 &3282306253676883822
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,6 +602,7 @@ GameObject:
   - component: {fileID: 1891079227224788662}
   - component: {fileID: 6833111576362011099}
   - component: {fileID: 1353738618629190088}
+  - component: {fileID: 8547802816487004486}
   m_Layer: 5
   m_Name: Btn_Dificil
   m_TagString: Untagged
@@ -571,7 +626,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.4794, y: -168}
+  m_AnchoredPosition: {x: 4.4794, y: -188}
   m_SizeDelta: {x: 610.9582, y: 104.8554}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1891079227224788662
@@ -668,6 +723,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8547802816487004486}
+        m_TargetAssemblyTypeName: ButtonSoundUI, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8547802816487004486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5223940509950288337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67d4a4dda0055499b87fbc8ecfe1da00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundUI
+  SoundClip: {fileID: 8300000, guid: 631abe9fc86804bb186f234bdd9bddd4, type: 3}
+  Volume: 1
 --- !u!1 &7893482107009328629
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,6 +761,7 @@ GameObject:
   - component: {fileID: 3203686648814833342}
   - component: {fileID: 3699425700161164871}
   - component: {fileID: 7582151535382226369}
+  - component: {fileID: 1238100532436691211}
   m_Layer: 5
   m_Name: Btn_Medio
   m_TagString: Untagged
@@ -800,6 +882,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1238100532436691211}
+        m_TargetAssemblyTypeName: ButtonSoundUI, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1238100532436691211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7893482107009328629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67d4a4dda0055499b87fbc8ecfe1da00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundUI
+  SoundClip: {fileID: 8300000, guid: 631abe9fc86804bb186f234bdd9bddd4, type: 3}
+  Volume: 1
 --- !u!1 &8846315554955807609
 GameObject:
   m_ObjectHideFlags: 0

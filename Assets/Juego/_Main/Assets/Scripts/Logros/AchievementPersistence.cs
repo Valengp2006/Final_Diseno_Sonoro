@@ -1,13 +1,17 @@
 using UnityEngine;
+using MoreMountains.Tools;
 
 public class AchievementPersistence : MonoBehaviour
 {
-    // Singleton para acceder desde cualquier parte (ej: la UI de tu compañero)
     public static AchievementPersistence Instance { get; private set; }
+
+    [Header("Sonido de Logro")]
+    public AudioClip AchievementUnlockedSound;
+    [Range(0f, 1f)]
+    public float SoundVolume = 1f;
 
     void Awake()
     {
-        // Esto asegura que el Manager no se destruya al cambiar de nivel
         if (Instance == null)
         {
             Instance = this;
@@ -19,26 +23,32 @@ public class AchievementPersistence : MonoBehaviour
         }
     }
 
-    // Activa un logro y lo guarda
     public void ActivarLogro(string id)
     {
-        if (IsLogroActivado(id)) return; // Si ya lo tiene, ignoramos
+        if (IsLogroActivado(id)) return;
 
         PlayerPrefs.SetInt(id, 1);
         PlayerPrefs.Save();
 
         Debug.Log($"[LOGROS] ¡Desbloqueado!: {id}");
 
-        // TODO: Aquí puedes instanciar el prefab de tu pop-up visual, reproducir el sonido (.wav) y lanzar las partículas.
+        if (AchievementUnlockedSound != null)
+        {
+            MMSoundManagerSoundPlayEvent.Trigger(
+                AchievementUnlockedSound,
+                MMSoundManager.MMSoundManagerTracks.UI,
+                Vector3.zero,
+                false,
+                SoundVolume
+            );
+        }
     }
 
-    // Método que tu compañero usará para su ventana de logros
     public bool IsLogroActivado(string id)
     {
         return PlayerPrefs.GetInt(id, 0) == 1;
     }
 
-    // Función auxiliar para los logros de acumulación (Enemigos)
     public void RegistrarProgreso(string keyGuardado, int cantidad, int objetivo, string idLogro)
     {
         int progresoActual = PlayerPrefs.GetInt(keyGuardado, 0) + cantidad;
@@ -49,7 +59,7 @@ public class AchievementPersistence : MonoBehaviour
             ActivarLogro(idLogro);
         }
     }
-    // Función para resetear todos los logros 
+
     public void ResetearLogros()
     {
         PlayerPrefs.DeleteAll();

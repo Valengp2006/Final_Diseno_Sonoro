@@ -2710,6 +2710,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f831a627515471696f08ce6a3cd04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AchievementPersistence
+  AchievementUnlockedSound: {fileID: 8300000, guid: 27843770780b74d32964fadf340d781a,
+    type: 3}
+  SoundVolume: 1
 --- !u!1001 &533572935
 PrefabInstance:
   m_ObjectHideFlags: 0
