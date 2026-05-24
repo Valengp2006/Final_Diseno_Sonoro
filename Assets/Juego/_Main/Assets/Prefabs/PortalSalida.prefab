@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4774703531206654}
   - component: {fileID: 61778447198396698}
   - component: {fileID: 114266938394166064}
+  - component: {fileID: 2244505172926209216}
   m_Layer: 0
   m_Name: PortalSalida
   m_TagString: Untagged
@@ -70,7 +71,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.018978119, y: -0.018981934}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -80,7 +81,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.9097366, y: 4.909729}
   m_EdgeRadius: 0
 --- !u!114 &114266938394166064
 MonoBehaviour:
@@ -125,7 +126,7 @@ MonoBehaviour:
   ShowPromptWhenColliding: 0
   HidePromptAfterUse: 0
   PromptRelativePosition: {x: 0, y: 0, z: 0}
-  ActivationFeedback: {fileID: 7003880289718274173}
+  ActivationFeedback: {fileID: 0}
   DeniedFeedback: {fileID: 0}
   EnterFeedback: {fileID: 0}
   ExitFeedback: {fileID: 0}
@@ -201,6 +202,137 @@ MonoBehaviour:
   AfterDelayBetweenFadesFeedback: {fileID: 0}
   SequenceEndFeedback: {fileID: 0}
   ArrivedHereFeedback: {fileID: 0}
+--- !u!114 &2244505172926209216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219196019504010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98da23264d4ed42deac72f4003367e1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PortalEstelar
+  ButtonActivatedRequirement: 2
+  RequiresPlayerType: 1
+  RequiresButtonActivationAbility: 1
+  PreventJumpsWhileInThisZone: 0
+  Activable: 1
+  AutoActivation: 0
+  AutoActivationAndButtonInteraction: 0
+  CanOnlyActivateIfGrounded: 0
+  ShouldUpdateState: 1
+  OnlyOneActivationAtOnce: 1
+  AlsoPerformChecksOnStay: 0
+  TargetLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  UnlimitedActivations: 1
+  MaxNumberOfActivations: 0
+  DelayBetweenUses: 0
+  DisableAfterUse: 0
+  InputType: 0
+  InputButton: Interact
+  InputKey: 32
+  AnimationTriggerParameterName: 
+  UseVisualPrompt: 1
+  ButtonPromptPrefab: {fileID: 0}
+  ButtonPromptText: A
+  ButtonPromptColor: {r: 0.4862745, g: 0.9882353, b: 0, a: 1}
+  ButtonPromptTextColor: {r: 1, g: 1, b: 1, a: 1}
+  AlwaysShowPrompt: 1
+  ShowPromptWhenColliding: 1
+  HidePromptAfterUse: 0
+  PromptRelativePosition: {x: 0, y: 0, z: 0}
+  ActivationFeedback: {fileID: 0}
+  DeniedFeedback: {fileID: 0}
+  EnterFeedback: {fileID: 0}
+  ExitFeedback: {fileID: 0}
+  OnActivation:
+    m_PersistentCalls:
+      m_Calls: []
+  OnExit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStay:
+    m_PersistentCalls:
+      m_Calls: []
+  OnlyAffectsPlayer: 1
+  ExitOffset: {x: 0, y: 1, z: 0}
+  TeleportationMode: 0
+  TweenCurve: 4
+  MaintainXEntryPositionOnExit: 0
+  MaintainYEntryPositionOnExit: 0
+  Destination: {fileID: 0}
+  AddToDestinationIgnoreList: 1
+  CameraMode: 0
+  CurrentRoom: {fileID: 0}
+  TargetRoom: {fileID: 0}
+  TriggerFade: 0
+  FaderID: 0
+  FadeTween:
+    MMTweenDefinitionType: 0
+    MMTweenCurve: 4
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Initialized: 0
+    ConditionPropertyName: 
+    EnumConditionPropertyName: 
+    EnumConditions: 0000000000000000000000000000000000000000000000000000000000000000
+  MoveMask: 1
+  MoveMaskCurve: 4
+  MoveMaskMethod: 1
+  MoveMaskDuration: 0.2
+  FreezeTime: 0
+  FreezeCharacter: 1
+  ResetMovementStateOnTeleport: 0
+  TimescaleMode: 0
+  InitialDelay: 0.1
+  FadeOutDuration: 0.2
+  DelayBetweenFades: 0.3
+  FadeInDuration: 0.2
+  FinalDelay: 0.1
+  SequenceStartFeedback: {fileID: 0}
+  AfterInitialDelayFeedback: {fileID: 0}
+  AfterFadeOutFeedback: {fileID: 0}
+  AfterDelayBetweenFadesFeedback: {fileID: 0}
+  SequenceEndFeedback: {fileID: 0}
+  ArrivedHereFeedback: {fileID: 0}
+  rotacionActiva: 1
+  velocidadRotacion: 30
+  ejeRotacion: {x: 0, y: 0, z: 1}
+  usarVariacionVelocidad: 0
+  amplitudVariacion: 30
+  frecuenciaVariacion: 1
+  usarPulsacion: 0
+  escalaMinima: 0.95
+  escalaMaxima: 1.05
+  velocidadPulsacion: 2
+  sonidoPortal: {fileID: 8300000, guid: fb9b05ba1c3bde7469507cadc758f84c, type: 3}
+  volumenPortal: 1
 --- !u!1 &4492473718790982973
 GameObject:
   m_ObjectHideFlags: 0

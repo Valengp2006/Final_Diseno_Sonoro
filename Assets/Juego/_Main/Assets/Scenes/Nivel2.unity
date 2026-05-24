@@ -855,148 +855,13 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbebe050567cdfe438fe4a0ae9603311, type: 3}
---- !u!1 &166444162 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1219196019504010, guid: 6474c71d1eac943de9552d53b75a6cd1,
-    type: 3}
-  m_PrefabInstance: {fileID: 853191140}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &166444163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166444162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98da23264d4ed42deac72f4003367e1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PortalEstelar
-  ButtonActivatedRequirement: 2
-  RequiresPlayerType: 1
-  RequiresButtonActivationAbility: 1
-  PreventJumpsWhileInThisZone: 0
-  Activable: 1
-  AutoActivation: 0
-  AutoActivationAndButtonInteraction: 0
-  CanOnlyActivateIfGrounded: 0
-  ShouldUpdateState: 1
-  OnlyOneActivationAtOnce: 1
-  AlsoPerformChecksOnStay: 0
-  TargetLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  UnlimitedActivations: 1
-  MaxNumberOfActivations: 0
-  DelayBetweenUses: 0
-  DisableAfterUse: 0
-  InputType: 0
-  InputButton: Interact
-  InputKey: 32
-  AnimationTriggerParameterName: 
-  UseVisualPrompt: 1
-  ButtonPromptPrefab: {fileID: 0}
-  ButtonPromptText: A
-  ButtonPromptColor: {r: 0.4862745, g: 0.9882353, b: 0, a: 1}
-  ButtonPromptTextColor: {r: 1, g: 1, b: 1, a: 1}
-  AlwaysShowPrompt: 1
-  ShowPromptWhenColliding: 1
-  HidePromptAfterUse: 0
-  PromptRelativePosition: {x: 0, y: 0, z: 0}
-  ActivationFeedback: {fileID: 0}
-  DeniedFeedback: {fileID: 0}
-  EnterFeedback: {fileID: 0}
-  ExitFeedback: {fileID: 0}
-  OnActivation:
-    m_PersistentCalls:
-      m_Calls: []
-  OnExit:
-    m_PersistentCalls:
-      m_Calls: []
-  OnStay:
-    m_PersistentCalls:
-      m_Calls: []
-  OnlyAffectsPlayer: 1
-  ExitOffset: {x: 0, y: 1, z: 0}
-  TeleportationMode: 0
-  TweenCurve: 4
-  MaintainXEntryPositionOnExit: 0
-  MaintainYEntryPositionOnExit: 0
-  Destination: {fileID: 297889362}
-  AddToDestinationIgnoreList: 1
-  CameraMode: 0
-  CurrentRoom: {fileID: 0}
-  TargetRoom: {fileID: 0}
-  TriggerFade: 0
-  FaderID: 0
-  FadeTween:
-    MMTweenDefinitionType: 0
-    MMTweenCurve: 4
-    Curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    Initialized: 0
-    ConditionPropertyName: 
-    EnumConditionPropertyName: 
-    EnumConditions: 0000000000000000000000000000000000000000000000000000000000000000
-  MoveMask: 1
-  MoveMaskCurve: 4
-  MoveMaskMethod: 1
-  MoveMaskDuration: 0.2
-  FreezeTime: 0
-  FreezeCharacter: 1
-  ResetMovementStateOnTeleport: 0
-  TimescaleMode: 0
-  InitialDelay: 0.1
-  FadeOutDuration: 0.2
-  DelayBetweenFades: 0.3
-  FadeInDuration: 0.2
-  FinalDelay: 0.1
-  SequenceStartFeedback: {fileID: 0}
-  AfterInitialDelayFeedback: {fileID: 0}
-  AfterFadeOutFeedback: {fileID: 0}
-  AfterDelayBetweenFadesFeedback: {fileID: 0}
-  SequenceEndFeedback: {fileID: 0}
-  ArrivedHereFeedback: {fileID: 0}
-  rotacionActiva: 1
-  velocidadRotacion: 30
-  ejeRotacion: {x: 0, y: 0, z: 1}
-  usarVariacionVelocidad: 0
-  amplitudVariacion: 30
-  frecuenciaVariacion: 1
-  usarPulsacion: 0
-  escalaMinima: 0.95
-  escalaMaxima: 1.05
-  velocidadPulsacion: 2
 --- !u!114 &166444164 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114266938394166064, guid: 6474c71d1eac943de9552d53b75a6cd1,
     type: 3}
   m_PrefabInstance: {fileID: 853191140}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166444162}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d67c8b1f0cc0f1c46901ec3b398875b9, type: 3}
@@ -1138,153 +1003,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e363a0aa4f16ba141baff9b6a73d0234, type: 3}
---- !u!1 &297889361 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1988486487321112, guid: f6ffebb1fb01d4b3b9c2f4869a1589ad,
-    type: 3}
-  m_PrefabInstance: {fileID: 1828331728}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &297889362 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114219179259142264, guid: f6ffebb1fb01d4b3b9c2f4869a1589ad,
     type: 3}
   m_PrefabInstance: {fileID: 1828331728}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297889361}
+  m_GameObject: {fileID: 0}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d67c8b1f0cc0f1c46901ec3b398875b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &297889364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297889361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98da23264d4ed42deac72f4003367e1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PortalEstelar
-  ButtonActivatedRequirement: 2
-  RequiresPlayerType: 1
-  RequiresButtonActivationAbility: 1
-  PreventJumpsWhileInThisZone: 0
-  Activable: 1
-  AutoActivation: 0
-  AutoActivationAndButtonInteraction: 0
-  CanOnlyActivateIfGrounded: 0
-  ShouldUpdateState: 1
-  OnlyOneActivationAtOnce: 1
-  AlsoPerformChecksOnStay: 0
-  TargetLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  UnlimitedActivations: 1
-  MaxNumberOfActivations: 0
-  DelayBetweenUses: 0
-  DisableAfterUse: 0
-  InputType: 0
-  InputButton: Interact
-  InputKey: 32
-  AnimationTriggerParameterName: 
-  UseVisualPrompt: 1
-  ButtonPromptPrefab: {fileID: 0}
-  ButtonPromptText: A
-  ButtonPromptColor: {r: 0.4862745, g: 0.9882353, b: 0, a: 1}
-  ButtonPromptTextColor: {r: 1, g: 1, b: 1, a: 1}
-  AlwaysShowPrompt: 1
-  ShowPromptWhenColliding: 1
-  HidePromptAfterUse: 0
-  PromptRelativePosition: {x: 0, y: 0, z: 0}
-  ActivationFeedback: {fileID: 1032536392}
-  DeniedFeedback: {fileID: 0}
-  EnterFeedback: {fileID: 0}
-  ExitFeedback: {fileID: 0}
-  OnActivation:
-    m_PersistentCalls:
-      m_Calls: []
-  OnExit:
-    m_PersistentCalls:
-      m_Calls: []
-  OnStay:
-    m_PersistentCalls:
-      m_Calls: []
-  OnlyAffectsPlayer: 1
-  ExitOffset: {x: 0, y: 1, z: 0}
-  TeleportationMode: 0
-  TweenCurve: 4
-  MaintainXEntryPositionOnExit: 0
-  MaintainYEntryPositionOnExit: 1
-  Destination: {fileID: 166444164}
-  AddToDestinationIgnoreList: 1
-  CameraMode: 0
-  CurrentRoom: {fileID: 0}
-  TargetRoom: {fileID: 0}
-  TriggerFade: 0
-  FaderID: 0
-  FadeTween:
-    MMTweenDefinitionType: 0
-    MMTweenCurve: 4
-    Curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    Initialized: 0
-    ConditionPropertyName: 
-    EnumConditionPropertyName: 
-    EnumConditions: 0000000000000000000000000000000000000000000000000000000000000000
-  MoveMask: 1
-  MoveMaskCurve: 4
-  MoveMaskMethod: 1
-  MoveMaskDuration: 0.2
-  FreezeTime: 0
-  FreezeCharacter: 1
-  ResetMovementStateOnTeleport: 0
-  TimescaleMode: 0
-  InitialDelay: 0.1
-  FadeOutDuration: 0.2
-  DelayBetweenFades: 0.3
-  FadeInDuration: 0.2
-  FinalDelay: 0.1
-  SequenceStartFeedback: {fileID: 0}
-  AfterInitialDelayFeedback: {fileID: 0}
-  AfterFadeOutFeedback: {fileID: 0}
-  AfterDelayBetweenFadesFeedback: {fileID: 0}
-  SequenceEndFeedback: {fileID: 0}
-  ArrivedHereFeedback: {fileID: 0}
-  rotacionActiva: 0
-  velocidadRotacion: 30
-  ejeRotacion: {x: 0, y: 0, z: 1}
-  usarVariacionVelocidad: 0
-  amplitudVariacion: 30
-  frecuenciaVariacion: 1
-  usarPulsacion: 0
-  escalaMinima: 0.95
-  escalaMaxima: 1.05
-  velocidadPulsacion: 2
 --- !u!1001 &322372221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2244,6 +1974,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f831a627515471696f08ce6a3cd04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AchievementPersistence
+  AchievementUnlockedSound: {fileID: 0}
+  SoundVolume: 1
 --- !u!4 &595575398
 Transform:
   m_ObjectHideFlags: 0
@@ -2344,7 +2076,7 @@ PrefabInstance:
     - target: {fileID: 600355638442678279, guid: 1557d56d828721542a4a0b1f1ad77408,
         type: 3}
       propertyPath: LevelName
-      value: LevelSelect
+      value: Nivel3
       objectReference: {fileID: 0}
     - target: {fileID: 600355638453415397, guid: 1557d56d828721542a4a0b1f1ad77408,
         type: 3}
@@ -3381,34 +3113,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 61778447198396698, guid: 6474c71d1eac943de9552d53b75a6cd1,
+    - target: {fileID: 2244505172926209216, guid: 6474c71d1eac943de9552d53b75a6cd1,
         type: 3}
-      propertyPath: m_Size.x
-      value: 4.9097366
-      objectReference: {fileID: 0}
-    - target: {fileID: 61778447198396698, guid: 6474c71d1eac943de9552d53b75a6cd1,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 4.909729
-      objectReference: {fileID: 0}
-    - target: {fileID: 61778447198396698, guid: 6474c71d1eac943de9552d53b75a6cd1,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.018978119
-      objectReference: {fileID: 0}
-    - target: {fileID: 61778447198396698, guid: 6474c71d1eac943de9552d53b75a6cd1,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.018981934
-      objectReference: {fileID: 0}
+      propertyPath: Destination
+      value: 
+      objectReference: {fileID: 297889362}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1219196019504010, guid: 6474c71d1eac943de9552d53b75a6cd1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 166444163}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6474c71d1eac943de9552d53b75a6cd1, type: 3}
 --- !u!4 &929974540 stripped
 Transform:
@@ -4165,18 +3878,6 @@ MonoBehaviour:
   velocidadRotacion: 100
   amplitudFlotacion: 0.3
   velocidadFlotacion: 2
---- !u!114 &1032536392 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6401166299445358654, guid: f6ffebb1fb01d4b3b9c2f4869a1589ad,
-    type: 3}
-  m_PrefabInstance: {fileID: 1828331728}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6da43522623d4704e979466dc7650b65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1046287394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5255440374069753826, guid: 42d0aa5b2ee02ea4180874f098943c73,
@@ -6369,39 +6070,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 61899113929982292, guid: f6ffebb1fb01d4b3b9c2f4869a1589ad,
+    - target: {fileID: 6191131497673386922, guid: f6ffebb1fb01d4b3b9c2f4869a1589ad,
         type: 3}
-      propertyPath: m_Size.x
-      value: 3.834734
-      objectReference: {fileID: 0}
-    - target: {fileID: 61899113929982292, guid: f6ffebb1fb01d4b3b9c2f4869a1589ad,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 3.7858582
-      objectReference: {fileID: 0}
-    - target: {fileID: 61899113929982292, guid: f6ffebb1fb01d4b3b9c2f4869a1589ad,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.048874855
-      objectReference: {fileID: 0}
-    - target: {fileID: 61899113929982292, guid: f6ffebb1fb01d4b3b9c2f4869a1589ad,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.02443695
-      objectReference: {fileID: 0}
-    - target: {fileID: 114219179259142264, guid: f6ffebb1fb01d4b3b9c2f4869a1589ad,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: Destination
+      value: 
+      objectReference: {fileID: 166444164}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1988486487321112, guid: f6ffebb1fb01d4b3b9c2f4869a1589ad,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 297889364}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6ffebb1fb01d4b3b9c2f4869a1589ad, type: 3}
 --- !u!1001 &1840175984
 PrefabInstance:
