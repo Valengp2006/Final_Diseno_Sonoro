@@ -5291,7 +5291,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 999438473}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d67c8b1f0cc0f1c46901ec3b398875b9, type: 3}
   m_Name: 
@@ -5682,7 +5682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.BackgroundMusic
   InitializationTime: 0
-  SoundClip: {fileID: 8300000, guid: 15ecaf46cd9bb41c88ab5042c5fc0838, type: 3}
+  SoundClip: {fileID: 8300000, guid: 050d1b50c5ba4c24382c9f0799b3163e, type: 3}
   Loop: 1
   ID: 255
 --- !u!4 &1117599978
@@ -10992,6 +10992,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f831a627515471696f08ce6a3cd04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AchievementPersistence
+  AchievementUnlockedSound: {fileID: 0}
+  SoundVolume: 1
 --- !u!4 &1777272595
 Transform:
   m_ObjectHideFlags: 0
